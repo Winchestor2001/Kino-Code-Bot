@@ -393,7 +393,7 @@ async def addMovie(message: Message, state: FSMContext):
             else:
                 caption = message.caption
                 movie_id = message.video.file_id
-                spliting = caption.split(" + ")
+                spliting = caption.split("\n", 1)
                 with db:
                     Movies.get_or_create(movie_code=spliting[0], movie_title=spliting[1], movie_id=movie_id)
                     users = Users.select().count()
