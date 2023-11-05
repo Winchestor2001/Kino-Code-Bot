@@ -1,5 +1,0 @@
-environs
-aiogram
-peewee
-psycopg2
-telegraph

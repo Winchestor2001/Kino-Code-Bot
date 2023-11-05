@@ -1,29 +1,69 @@
 from aiogram.types import ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton
 
 
-admin_panel = InlineKeyboardMarkup()
-admin_panel.row(InlineKeyboardButton("➕ Kanal qo'shish", callback_data="add_channel"),
-                InlineKeyboardButton("Xabar junatish 📮", callback_data="rek"))
-admin_panel.row(InlineKeyboardButton("➕ Admin qo'shish", callback_data="add_admin"),
-                InlineKeyboardButton(text='Kino qushish 📽', callback_data='add_movie'))
-admin_panel.row(InlineKeyboardButton("Ortga ↩️", callback_data="del_panel"))
-
-channels_btn = InlineKeyboardMarkup()
-chb11 = InlineKeyboardButton("✅ OBUNA BOLDIM ✅", callback_data="check_subscribe")
-channels_btn.add(chb11)
-
-
-add_channel_btn = InlineKeyboardMarkup(row_width=1)
-del_channel_btn = InlineKeyboardMarkup(row_width=1)
-
-add_admin_btn = InlineKeyboardMarkup(row_width=1)
-del_admin_btn = InlineKeyboardMarkup(row_width=1)
-
-
 remove = ReplyKeyboardRemove()
 
-cencel_send_btn = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
-cencel_send_btn.row("❌")
+
+async def admin_panel_btn():
+    btn = InlineKeyboardMarkup()
+    btn.row(InlineKeyboardButton("➕ Kanal qo'shish", callback_data="add_channel"),
+                    InlineKeyboardButton("Xabar junatish 📮", callback_data="rek"))
+    btn.row(InlineKeyboardButton("➕ Admin qo'shish", callback_data="add_admin"),
+                    InlineKeyboardButton(text='Kino qushish 📽', callback_data='add_movie'))
+    btn.row(InlineKeyboardButton("Ortga ↩️", callback_data="del_panel"))
+
+    return btn
 
 
-send_post_btn = InlineKeyboardMarkup(row_width=1)
+async def channels_btn(channels):
+    btn = InlineKeyboardMarkup(row_width=1)
+    btn.add(
+        *[InlineKeyboardButton(f"{item['channel_name']}", url=f"{item['channel_link']}") for item in channels],
+        InlineKeyboardButton("✅ OBUNA BOLDIM ✅", callback_data="check_subscribe")
+    )
+    return btn
+
+
+async def add_channel_btn(channels):
+    btn = InlineKeyboardMarkup(row_width=1)
+    btn.add(
+        InlineKeyboardButton("➕", callback_data="channel_config"),
+        InlineKeyboardButton("Ortga ↩️", callback_data="back"),
+        *[InlineKeyboardButton(f"{item['channel_name']}", callback_data=f"{item['channel_id']}") for item in channels]
+    )
+    return btn
+
+
+async def del_channel_btn(channel):
+    btn = InlineKeyboardMarkup(row_width=1)
+    btn.add(
+        InlineKeyboardButton("Ortga ↩️", callback_data="back"),
+        InlineKeyboardButton("❌", callback_data=f"delchannel_{channel['channel_id']}"),
+        InlineKeyboardButton(f"{channel['channel_name']}", url=f"{channel['channel_link']}"),
+    )
+    return btn
+
+
+async def add_admin_btn(admins):
+    btn = InlineKeyboardMarkup(row_width=1)
+    btn.add(
+        InlineKeyboardButton("➕", callback_data="admin_config"),
+        InlineKeyboardButton("Ortga ↩️", callback_data="back"),
+        *[InlineKeyboardButton(f"{item['admin_name']}", callback_data=f"deladm_{item['admin_id']}") for item in admins]
+    )
+    return btn
+
+
+async def del_admin_btn():
+    btn = InlineKeyboardMarkup(row_width=1)
+    btn.add(
+
+    )
+    return btn
+
+
+async def cencel_send_btn():
+    btn = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+    btn.row("❌")
+    return btn
+

@@ -1,0 +1,5 @@
+environs==9.5.0
+aiogram==2.25.1
+peewee==3.17.0
+psycopg2-binary==2.9.9
+telegraph==2.2.0
