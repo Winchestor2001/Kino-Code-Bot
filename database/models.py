@@ -21,6 +21,7 @@ class Movies(BaseModel):
     movie_code = IntegerField()
     movie_title = CharField(max_length=500)
     movie_id = CharField(max_length=300, primary_key=True)
+    views = BigIntegerField(default=0)
 
     class Meta:
         db_table = 'movies'

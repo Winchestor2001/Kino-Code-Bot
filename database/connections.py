@@ -100,3 +100,10 @@ async def add_new_movie(movie_code, movie_title, movie_id):
         Movies.get_or_create(movie_code=movie_code, movie_title=movie_title, movie_id=movie_id)
 
 
+async def update_movie_views(movie_code):
+    with db:
+        Movies.update(views=Movies.views + 1).where(Movies.movie_code == movie_code).execute()
+        views = [model_to_dict(item) for item in Movies.select().where(Movies.movie_code == movie_code)]
+        return views[0]['views']
+
+
