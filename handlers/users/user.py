@@ -15,6 +15,7 @@ from states.AllStates import MyStates
 from database.connections import add_user, get_channels, get_admins, delete_movie_code, get_movies_list, \
     delete_all_movies, get_movie, add_new_channel, get_channel_by_id, delete_channel, add_new_admin, delete_admin, \
     add_new_movie, get_all_users, update_movie_views
+from utils.misc.dot_env import edit_env_file
 
 
 async def channels_check_func(user_id):
@@ -81,6 +82,20 @@ async def delete_code_handler(message: Message):
                 await message.answer(f"✅ <b>{code} kodi uchirildi!</b>")
             else:
                 await message.answer(f"⚠️ {code} kod mavjud emas!")
+        else:
+            await message.answer(f"Xato komanda")
+
+
+async def add_default_channel_handler(message: Message):
+    user_id = message.from_user.id
+    channel_link = message.get_args()
+
+    admins, _ = await get_admins()
+
+    if user_id in ADMINS or user_id in admins:
+        if channel_link.startswith("https://t.me"):
+            await edit_env_file(channel_link)
+            await message.answer(f"<b>✅ Kanal linki saqlandi!</b>")
         else:
             await message.answer(f"Xato komanda")
 
@@ -465,6 +480,7 @@ def register_user_py(dp: Dispatcher):
     dp.register_message_handler(welcome, commands=['start'], state='*')
     dp.register_message_handler(admin_panel_handler, commands=['admin'])
     dp.register_message_handler(delete_code_handler, commands=['del'])
+    dp.register_message_handler(add_default_channel_handler, commands=['kodlar'])
     dp.register_message_handler(code_list_handler, commands=['list'])
     dp.register_message_handler(clear_movies_handler, commands=['delmovie'])
     dp.register_message_handler(movie_code_handler, content_types=['text'])
