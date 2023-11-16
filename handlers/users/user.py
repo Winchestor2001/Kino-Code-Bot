@@ -3,17 +3,19 @@ import asyncio
 from aiogram import Dispatcher
 from aiogram.dispatcher import FSMContext
 from aiogram.types import Message, CallbackQuery
-from aiogram.utils.exceptions import BotBlocked, ChatNotFound
+from aiogram.utils.exceptions import BotBlocked, ChatNotFound, WrongFileIdentifier
 from telegraph import Telegraph
 
 from data.config import CHANNELS_STATUS, ADMINS, POSTER_IMAGE, SEND_POSTER_IMAGE
 from keyboards.inline.admin_btns import channels_btn, admin_panel_btn, add_channel_btn, cencel_send_btn, add_admin_btn, \
     remove, del_channel_btn
+from keyboards.inline.user_btns import movie_channel_url_btn
 from loader import dp, bot
 from states.AllStates import MyStates
 from database.connections import add_user, get_channels, get_admins, delete_movie_code, get_movies_list, \
     delete_all_movies, get_movie, add_new_channel, get_channel_by_id, delete_channel, add_new_admin, delete_admin, \
-    add_new_movie, get_all_users
+    add_new_movie, get_all_users, update_movie_views
+from utils.misc.dot_env import edit_env_file
 
 
 async def channels_check_func(user_id):
@@ -64,6 +66,11 @@ async def admin_panel_handler(message: Message):
     admins, users = await get_admins()
     if user_id in admins:
         btn = await admin_panel_btn()
+        await message.answer("<code>/del 200</code> kino o`chirish\n"
+                             "<code>/kodlar https://...</code> kinolar kanali\n"
+                             "<code>/list</code> kinolar ro`yxati\n"
+                             "<code>/delmovie</code> barcha kinolarni o`chirish\n"
+                             "<pre><em>salom</em></pre>")
         await message.answer(f"Siz admin paneldasiz:\n\n"
                              f"Bot a'zolari: <b>{users}</b> ta", reply_markup=btn)
 
@@ -80,6 +87,20 @@ async def delete_code_handler(message: Message):
                 await message.answer(f"✅ <b>{code} kodi uchirildi!</b>")
             else:
                 await message.answer(f"⚠️ {code} kod mavjud emas!")
+        else:
+            await message.answer(f"Xato komanda")
+
+
+async def add_default_channel_handler(message: Message):
+    user_id = message.from_user.id
+    channel_link = message.get_args()
+
+    admins, _ = await get_admins()
+
+    if user_id in ADMINS or user_id in admins:
+        if channel_link.startswith("https://t.me"):
+            await edit_env_file(channel_link)
+            await message.answer(f"<b>✅ Kanal linki saqlandi!</b>")
         else:
             await message.answer(f"Xato komanda")
 
@@ -126,15 +147,19 @@ async def movie_code_handler(message: Message):
 
     if code.isdigit():
         movie_info = await get_movie(code)
-        bot_name_link = await bot.get_me()
         check_channel = await channels_check_func(user_id)
         if "success" in check_channel:
             if movie_info:
                 for m in movie_info:
-                    await bot.send_video(user_id, m['movie_id'], caption=f"🔢 <b>Film kodi:</b> #{m['movie_code']}\n"
-                                                                         f"📄 <b>Film Nomi:</b> {m['movie_title']}\n\n"
-                                                                         f"Yanada ko`plab kinolar 👉 @{bot_name_link.username}")
-
+                    try:
+                        btn = await movie_channel_url_btn()
+                        views = await update_movie_views(m['movie_code'])
+                        await bot.send_video(user_id, m['movie_id'], caption=f"🔢 <b>Film kodi:</b> #{m['movie_code']}\n"
+                                                                             f"📄 <b>Film Nomi:</b> {m['movie_title']}\n\n"
+                                                                             f"📥 Yuklangan: <b>{views}</b> marotaba",
+                                             reply_markup=btn)
+                    except WrongFileIdentifier:
+                        await message.answer(f"⚠️ <b>{message.text}</b> kodi mavjud emas.")
             else:
                 await message.answer(f"⚠️ <b>{message.text}</b> kodi mavjud emas.")
 
@@ -154,6 +179,7 @@ async def check_channel_handler(message: Message, state: FSMContext):
     prefix = '-100'
     try:
         if len(text) == 3:
+            text = [item.strip() for item in text]
             channel_name, channel_id, channel_link = text
 
             if channel_id.isdigit() or channel_id.startswith('-100'):
@@ -288,7 +314,7 @@ async def add_movie_state(message: Message, state: FSMContext):
         else:
             movie_id = message.document.file_id
 
-        cap_split = list([item for item in caption.split("\n") if item != ''])
+        cap_split = list([item for item in caption.split("\n", 1) if item != ''])
         movie_code, movie_title = cap_split
         await add_new_movie(movie_code, movie_title, movie_id)
         await message.answer(f"✅ Kino bazaga saqlandi!\n\n"
@@ -458,6 +484,7 @@ def register_user_py(dp: Dispatcher):
     dp.register_message_handler(welcome, commands=['start'], state='*')
     dp.register_message_handler(admin_panel_handler, commands=['admin'])
     dp.register_message_handler(delete_code_handler, commands=['del'])
+    dp.register_message_handler(add_default_channel_handler, commands=['kodlar'])
     dp.register_message_handler(code_list_handler, commands=['list'])
     dp.register_message_handler(clear_movies_handler, commands=['delmovie'])
     dp.register_message_handler(movie_code_handler, content_types=['text'])
