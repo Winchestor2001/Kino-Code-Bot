@@ -66,6 +66,10 @@ async def admin_panel_handler(message: Message):
     admins, users = await get_admins()
     if user_id in admins:
         btn = await admin_panel_btn()
+        await message.answer("<code>/del 200</code> kino o`chirish\n"
+                             "<code>/kodlar https://...</code> kinolar kanali\n"
+                             "<code>/list</code> kinolar ro`yxati\n"
+                             "<code>/delmovie</code> barcha kinolarni o`chirish")
         await message.answer(f"Siz admin paneldasiz:\n\n"
                              f"Bot a'zolari: <b>{users}</b> ta", reply_markup=btn)
 
