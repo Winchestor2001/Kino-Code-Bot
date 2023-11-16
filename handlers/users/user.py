@@ -14,7 +14,7 @@ from loader import dp, bot
 from states.AllStates import MyStates
 from database.connections import add_user, get_channels, get_admins, delete_movie_code, get_movies_list, \
     delete_all_movies, get_movie, add_new_channel, get_channel_by_id, delete_channel, add_new_admin, delete_admin, \
-    add_new_movie, get_all_users, update_movie_views
+    add_new_movie, get_all_users, update_movie_views, get_default_channel_link, update_default_channel_link
 from utils.misc.dot_env import edit_env_file
 
 
@@ -98,7 +98,7 @@ async def add_default_channel_handler(message: Message):
 
     if user_id in ADMINS or user_id in admins:
         if channel_link.startswith("https://t.me"):
-            await edit_env_file(channel_link)
+            await update_default_channel_link(channel_link)
             await message.answer(f"<b>✅ Kanal linki saqlandi!</b>")
         else:
             await message.answer(f"Xato komanda")
@@ -151,7 +151,8 @@ async def movie_code_handler(message: Message):
             if movie_info:
                 for m in movie_info:
                     try:
-                        btn = await movie_channel_url_btn()
+                        link = await get_default_channel_link()
+                        btn = await movie_channel_url_btn(link)
                         views = await update_movie_views(m['movie_code'])
                         await bot.send_video(user_id, m['movie_id'], caption=f"🔢 <b>Film kodi:</b> #{m['movie_code']}\n"
                                                                              f"📄 <b>Film Nomi:</b> {m['movie_title']}\n\n"

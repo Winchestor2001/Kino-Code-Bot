@@ -42,3 +42,10 @@ class Admins(BaseModel):
 
     class Meta:
         db_table = 'admins'
+
+
+class UtilsModel(BaseModel):
+    default_channel_link = CharField(max_length=100)
+
+    class Meta:
+        db_table = 'utils_model'
