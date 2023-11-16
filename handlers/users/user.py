@@ -69,7 +69,8 @@ async def admin_panel_handler(message: Message):
         await message.answer("<code>/del 200</code> kino o`chirish\n"
                              "<code>/kodlar https://...</code> kinolar kanali\n"
                              "<code>/list</code> kinolar ro`yxati\n"
-                             "<code>/delmovie</code> barcha kinolarni o`chirish")
+                             "<code>/delmovie</code> barcha kinolarni o`chirish\n"
+                             "<pre><em>salom</em></pre>")
         await message.answer(f"Siz admin paneldasiz:\n\n"
                              f"Bot a'zolari: <b>{users}</b> ta", reply_markup=btn)
 
