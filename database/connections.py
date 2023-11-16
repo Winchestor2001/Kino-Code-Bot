@@ -107,3 +107,17 @@ async def update_movie_views(movie_code):
         return views[0]['views']
 
 
+async def get_default_channel_link():
+    with db:
+        link = UtilsModel.select()
+        return [model_to_dict(item) for item in link][0]['default_channel_link']
+
+
+async def update_default_channel_link(link):
+    with db:
+        check_item = UtilsModel.select(UtilsModel.default_channel_link).exists()
+        if check_item:
+            UtilsModel.update(default_channel_link=link).execute()
+        else:
+            UtilsModel.insert(default_channel_link=link).execute()
+
