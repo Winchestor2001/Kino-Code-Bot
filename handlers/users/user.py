@@ -147,7 +147,6 @@ async def movie_code_handler(message: Message):
 
     if code.isdigit():
         movie_info = await get_movie(code)
-        bot_name_link = await bot.get_me()
         check_channel = await channels_check_func(user_id)
         if "success" in check_channel:
             if movie_info:
