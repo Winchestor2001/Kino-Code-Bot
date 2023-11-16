@@ -1058,3 +1058,56 @@ Traceback (most recent call last):
   File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
     raise err(cls.text or description)
 aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+executor.py [LINE:362] #INFO     [2023-11-16 18:21:30,827]  Bot: Kino Gashti [@Kino_Gashtibot]
+executor.py [LINE:358] #WARNING  [2023-11-16 18:21:30,912]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-16 18:21:30,963]  Start polling.
+executor.py [LINE:362] #INFO     [2023-11-16 18:23:57,649]  Bot: Kino Gashti [@Kino_Gashtibot]
+executor.py [LINE:358] #WARNING  [2023-11-16 18:23:57,748]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-16 18:23:57,820]  Start polling.
+error_handler.py [LINE:33] #ERROR    [2023-11-16 18:26:53,047]  TelegramAPIError: Message can't be deleted for everyone 
+Update: {"update_id": 870281802, "callback_query": {"id": "6274799191907298300", "from": {"id": 5755932830, "is_bot": false, "first_name": "$ $ $", "username": "Buyuk_ads1", "language_code": "uz"}, "message": {"message_id": 9853504, "from": {"id": 5908780937, "is_bot": true, "first_name": "Kino Gashti", "username": "Kino_Gashtibot"}, "chat": {"id": 5755932830, "first_name": "$ $ $", "username": "Buyuk_ads1", "type": "private"}, "date": 1699254380, "edit_date": 1700148411, "text": "\U0001f4f6 Adminlar ro`yxati:", "reply_markup": {"inline_keyboard": [[{"text": "\u2795", "callback_data": "admin_config"}], [{"text": "Ortga \u21a9\ufe0f", "callback_data": "back"}], [{"text": "A", "callback_data": "deladm_5916114767"}], [{"text": "\u20ac\u20ac\u20ac\u20ac", "callback_data": "deladm_5072704698"}], [{"text": "Rek_agents", "callback_data": "deladm_660525636"}]]}}, "chat_instance": "-672340794818897211", "data": "admin_config"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kino_Gashtibot/handlers/users/user.py", line 427, in admin_config_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+error_handler.py [LINE:33] #ERROR    [2023-11-16 18:26:55,567]  TelegramAPIError: Message can't be deleted for everyone 
+Update: {"update_id": 870281803, "callback_query": {"id": "6274799192730705483", "from": {"id": 5755932830, "is_bot": false, "first_name": "$ $ $", "username": "Buyuk_ads1", "language_code": "uz"}, "message": {"message_id": 9853504, "from": {"id": 5908780937, "is_bot": true, "first_name": "Kino Gashti", "username": "Kino_Gashtibot"}, "chat": {"id": 5755932830, "first_name": "$ $ $", "username": "Buyuk_ads1", "type": "private"}, "date": 1699254380, "edit_date": 1700148411, "text": "\U0001f4f6 Adminlar ro`yxati:", "reply_markup": {"inline_keyboard": [[{"text": "\u2795", "callback_data": "admin_config"}], [{"text": "Ortga \u21a9\ufe0f", "callback_data": "back"}], [{"text": "A", "callback_data": "deladm_5916114767"}], [{"text": "\u20ac\u20ac\u20ac\u20ac", "callback_data": "deladm_5072704698"}], [{"text": "Rek_agents", "callback_data": "deladm_660525636"}]]}}, "chat_instance": "-672340794818897211", "data": "admin_config"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kino_Gashtibot/handlers/users/user.py", line 427, in admin_config_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+executor.py [LINE:362] #INFO     [2023-11-16 20:54:01,989]  Bot: Kino Gashti [@Kino_Gashtibot]
+executor.py [LINE:358] #WARNING  [2023-11-16 20:54:02,062]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-16 20:54:02,111]  Start polling.
