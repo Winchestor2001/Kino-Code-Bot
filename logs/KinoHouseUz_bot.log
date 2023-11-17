@@ -1,0 +1,336 @@
+error_handler.py [LINE:33] #ERROR    [2023-11-07 09:45:10,037]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 287193488, "message": {"message_id": 15978455, "from": {"id": 608528075, "is_bot": false, "first_name": "BORZZ", "username": "Borzzie", "language_code": "uz"}, "chat": {"id": 608528075, "first_name": "BORZZ", "username": "Borzzie", "type": "private"}, "date": 1699339500, "photo": [{"file_id": "AgACAgQAAxkBAAHzz9dlSdzsv0XYhUhL1lUssnl_piPv8AACaLIxG7KxxFE6xeCRe7RBogEAAwIAA3MAAzME", "file_unique_id": "AQADaLIxG7KxxFF4", "file_size": 2033, "width": 88, "height": 90}, {"file_id": "AgACAgQAAxkBAAHzz9dlSdzsv0XYhUhL1lUssnl_piPv8AACaLIxG7KxxFE6xeCRe7RBogEAAwIAA20AAzME", "file_unique_id": "AQADaLIxG7KxxFFy", "file_size": 22434, "width": 312, "height": 320}, {"file_id": "AgACAgQAAxkBAAHzz9dlSdzsv0XYhUhL1lUssnl_piPv8AACaLIxG7KxxFE6xeCRe7RBogEAAwIAA3gAAzME", "file_unique_id": "AQADaLIxG7KxxFF9", "file_size": 80998, "width": 780, "height": 800}, {"file_id": "AgACAgQAAxkBAAHzz9dlSdzsv0XYhUhL1lUssnl_piPv8AACaLIxG7KxxFE6xeCRe7RBogEAAwIAA3kAAzME", "file_unique_id": "AQADaLIxG7KxxFF-", "file_size": 100395, "width": 975, "height": 1000}], "caption": "Provocative gel\U0001f525\n\n Provocative gel \u044d\u0440\u043a\u0430\u043a\u043b\u0430\u0440 \u0443\u0447\u0443\u043d \u043c\u0430\u0445\u0441\u0443\u0441 \u0432\u043e\u0441\u0438\u0442\u0430 \u2705 Provocative gel\u2013 \u0436\u0438\u043d\u0441\u0438\u0439 \u0430\u044a\u0437\u043e\u043d\u0438 \u045e\u0441\u0442\u0438\u0440\u0438\u0448\u0433\u0430 \u043a\u0430\u0444\u043e\u043b\u0430\u0442 \u0431\u0435\u0440\u0430\u0434\u0438 \u0431\u0438\u0440 \u043e\u0439\u0434\u0430 5 \u0441\u043c \u0433\u0430.\u2705 \u041a\u0443\u043d\u0438\u0433\u0430 \u0444\u0430\u049b\u0430\u0442 \u0431\u0438\u0440 \u043c\u0430\u0440\u0442\u0430 \u0444\u043e\u0439\u0434\u0430\u043b\u0430\u043d\u0438\u043b\u0430\u0434\u0438\u2755 \n\u2705 \u0424\u0430\u049b\u0430\u0442 \u0442\u0430\u0431\u0438\u0438\u0439 \u0439\u045e\u043b \u0431\u0438\u043b\u0430\u043d \u043a\u0430\u0442\u0442\u0430\u043b\u0430\u0448\u0430\u0434\u0438 \u2705 \u0411\u0438\u0440 \u041e\u0439\u0434\u0430 \u0443\u0437\u0443\u043d\u043b\u0438\u0433\u0438 +5 \u0441\u043c \u2705 \u0416\u0438\u043d\u0441\u0438\u0439 \u0430\u043b\u043e\u049b\u0430 \u0436\u0430\u0440\u0430\u0451\u043d\u0438 3 \u0441\u043e\u0430\u0442\u0433\u0430\u0447\u0430 \u0447\u045e\u0437\u0438\u043b\u0430\u0434\u0438 \u2705 \u041d\u0430\u0442\u0438\u0436\u0430\u0441\u0438\u043d\u0438 1 \u0445\u0430\u0444\u0442\u0430\u0434\u0430 \u0441\u0435\u0437\u0430\u0441\u0438\u0437 \u2705 \u0423\u0448\u0431\u0443 \u043a\u0440\u0435\u043c, \u0445\u0435\u0447 \u049b\u0430\u043d\u0434\u0430\u0439 \u0437\u0430\u0440\u0430\u0440\u0433\u0430 \u044d\u0433\u0430 \u044d\u043c\u0430\u0441 \u2705 A\u043b\u0435\u0440\u0433\u0438\u044f\u0433\u0430 \u043e\u043b\u0438\u0431 \u043a\u0435\u043b\u043c\u0430\u0439\u0434\u0438, \u0448\u0443 \u0431\u0438\u043b\u0430\u043d \u0431\u0438\u0440 \u049b\u0430\u0442\u043e\u0440\u0434\u0430 Provocative gel \u0433\u0430 \u045e\u0440\u0433\u0430\u043d\u0438\u0431 \u049b\u043e\u043b\u043c\u0430\u0439\u0441\u0438\u0437 \u2705 \u0412\u0430 \u044d\u043d\u0433 \u043c\u0443\u0445\u0438\u043c\u0438 \u0443\u043d\u0434\u0430\u043d \u0444\u043e\u0439\u0434\u0430\u043b\u0430\u043d\u0433\u0430\u043d\u0434\u0430\u043d \u0441\u045e\u043d\u0433 \u044d\u0440\u0438\u0448\u0433\u0430\u043d \u043d\u0430\u0442\u0438\u0436\u0430 \u0441\u0438\u0437 \u0431\u0438\u043b\u0430\u043d \u0443\u043c\u0440\u0438\u043d\u0433\u0438\u0437 \u0441\u045e\u043d\u0433\u0438\u0433\u0430\u0447\u0430 \u049b\u043e\u043b\u0430\u0434\u0438 \n\n\n \U0001f4b0 Mahsulot narxi: 69000 so'm\n\n \u2705 To'lovni mahsulotni qo'lingizga olganda qilasiz\n\nBuyurtma berish uchun\U0001f447\u2705\nhttps://100k.uz/oqim/332678\nhttps://100k.uz/oqim/332678\nhttps://100k.uz/oqim/332678\n\n \U0001f69a O\u2018zbekiston bo\u2018ylab yetkazib berish xizmati mavjud \n \n \U0001f381 2 ta mahsulot xarid qilgan mijozga buyurtma mutlaqo tekinga yetqazib beriladi", "caption_entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 20, "length": 628}, {"type": "url", "offset": 648, "length": 27}, {"type": "bold", "offset": 648, "length": 27}, {"type": "url", "offset": 676, "length": 27}, {"type": "bold", "offset": 676, "length": 27}, {"type": "url", "offset": 704, "length": 27}, {"type": "bold", "offset": 704, "length": 27}, {"type": "bold", "offset": 734, "length": 138}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 246, in send_ads_handler
+    await bot.send_photo(u, message.photo[-1].file_id, caption=text_caption,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 565, in send_photo
+    result = await self.request(api.Methods.SEND_PHOTO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-07 16:15:27,624]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 287193618, "callback_query": {"id": "3778582257058464470", "from": {"id": 879769739, "is_bot": false, "first_name": "\u041c\u0430\u0440\u0430\u0442", "last_name": "\u0421\u0435\u0439\u0442\u043a\u0430\u043c\u0430\u043b\u043e\u0432", "language_code": "ru"}, "message": {"message_id": 13816014, "chat": {"id": 879769739, "first_name": "\u041c\u0430\u0440\u0430\u0442", "last_name": "\u0421\u0435\u0439\u0442\u043a\u0430\u043c\u0430\u043b\u043e\u0432", "type": "private"}, "date": 0}, "chat_instance": "-4378439042343093570", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 22:12:32,194]  TelegramAPIError: Aiohttp client throws an error: ClientOSError: [Errno 104] Connection reset by peer 
+Update: {"update_id": 287193795, "message": {"message_id": 15978682, "from": {"id": 6299820211, "is_bot": false, "first_name": "\u0416\u0430\u0445\u0430", "last_name": "\u0420\u0430\u0432\u0448\u0430\u043d\u043e\u0432", "language_code": "ru"}, "chat": {"id": 6299820211, "first_name": "\u0416\u0430\u0445\u0430", "last_name": "\u0420\u0430\u0432\u0448\u0430\u043d\u043e\u0432", "type": "private"}, "date": 1699384352, "text": "912"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 129, in movie_code_handler
+    bot_name_link = await bot.get_me()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 233, in get_me
+    result = await self.request(api.Methods.GET_ME, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [Errno 104] Connection reset by peer
+dispatcher.py [LINE:390] #ERROR    [2023-11-08 01:39:37,895]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 5 seconds.
+error_handler.py [LINE:33] #ERROR    [2023-11-08 13:42:20,820]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 287194024, "message": {"message_id": 15978839, "from": {"id": 608528075, "is_bot": false, "first_name": "BORZZ", "username": "Borzzie", "language_code": "uz"}, "chat": {"id": 608528075, "first_name": "BORZZ", "username": "Borzzie", "type": "private"}, "date": 1699440130, "photo": [{"file_id": "AgACAgIAAxkBAAHz0VdlS2YCmd5UVignvPQLw3eHek0AAccAAp26MRvvwNFKzQrtOuUOWHcBAAMCAANzAAMzBA", "file_unique_id": "AQADnboxG-_A0Up4", "file_size": 1559, "width": 73, "height": 90}, {"file_id": "AgACAgIAAxkBAAHz0VdlS2YCmd5UVignvPQLw3eHek0AAccAAp26MRvvwNFKzQrtOuUOWHcBAAMCAANtAAMzBA", "file_unique_id": "AQADnboxG-_A0Upy", "file_size": 25765, "width": 261, "height": 320}, {"file_id": "AgACAgIAAxkBAAHz0VdlS2YCmd5UVignvPQLw3eHek0AAccAAp26MRvvwNFKzQrtOuUOWHcBAAMCAAN4AAMzBA", "file_unique_id": "AQADnboxG-_A0Up9", "file_size": 117668, "width": 652, "height": 800}, {"file_id": "AgACAgIAAxkBAAHz0VdlS2YCmd5UVignvPQLw3eHek0AAccAAp26MRvvwNFKzQrtOuUOWHcBAAMCAAN5AAMzBA", "file_unique_id": "AQADnboxG-_A0Up-", "file_size": 156228, "width": 1043, "height": 1280}], "caption": "Q7 \u0448\u043e\u043a\u043e\u043b\u0430\u0434 \U0001f36b\U0001f51e\n\n\U0001f36b \u0410\u0451\u043b\u043d\u0438\u043d\u0433 \u0445\u0430\u044f\u0436\u043e\u043d\u0438\u043d\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b \u0434\u0430\u0440\u0430\u0436\u0430\u0434\u0430 \u043e\u0448\u0438\u0440\u0430\u0434\u0438 \u0432\u0430 \u043e\u0440\u0433\u0430\u0437\u043c\u043d\u0438 \u0442\u0430\u044a\u043c\u0438\u043d\u043b\u0430\u0439\u0434\u0438y\n\U0001f36b 15 \u0434\u0430\u049b\u0438\u049b\u0430\u0434\u0430 \u0436\u0438\u043b\u043e\u0432\u043b\u0430\u0431 \u0431\u045e\u043b\u043c\u0430\u0439\u0434\u0438\u0433\u0430\u043d \u0438\u0441\u0442\u0430\u0433\u0438\u043d\u0438 \u0443\u0439\u0493\u043e\u0442\u0430\u0434\u0438\n\U0001f36b \u0425\u0438\u0441\u0441\u0438\u0451\u0442\u043b\u0430\u0440 \u0451\u0440\u049b\u0438\u043d\u043b\u0438\u0433\u0438 \u043e\u0448\u0438\u0440\u0430\u0434\u0438\n\U0001f36b \u0416\u0438\u043d\u0441\u0438\u0439 \u049b\u045e\u0437\u0493\u0430\u043b\u0438\u0448\u043d\u0438 \u043a\u0435\u043b\u0442\u0438\u0440\u0438\u0431 \u0447\u0438\u049b\u0430\u0440\u0430\u0434\u0438\n\U0001f36b \u0410\u0451\u043b \u0451\u043a\u0438 \u049b\u0438\u0437\u043b\u0430\u0440\u0433\u0430 \u049b\u0430\u0439\u043d\u043e\u049b \u043e\u0440\u0433\u0430\u0437\u043c \u0432\u0430 \u044d\u0445\u0442\u0438\u0440\u043e\u0441 \u0443\u0439\u0493\u043e\u0442\u0438\u0431 \u0431\u0435\u0440\u0430\u0434\u0438\n\n\u2705 2 \u0442\u0430 \u043a\u0443\u0441\u043e\u043a \u0435\u0441\u0430 \u0435\u0442\u0430\u0434\u0438 \u0442\u0430\u043c\u043e\u043c \u0431\u045e\u043b\u0430\u0434\u0438, 5 \u043c\u0438\u043d\u0443\u0442\u0434\u0430 \u0442\u0430\u0439\u0451\u0440 \u0431\u045e\u043b\u0430\u0434\u0438\U0001f51e\n\n\U0001f4b0 \u041d\u0430\u0440\u0445\u0438: 125 000 \u0441\u045e\u043c\n\n2 \u0442\u0430 \u043c\u0430\u0445\u0441\u0443\u043b\u043e\u0442 \u043e\u043b\u0441\u0430\u043d\u0433\u0438\u0437 1 \u0442\u0430 \u043c\u0430\u0445\u0441\u0443\u043b\u043e\u0442 \u049b\u0443\u0448\u0438\u0431 \u0431\u0435\u0440\u0438\u043b\u0430\u0434\u0438\n\n\u0415\u0422\u041a\u0410\u0417\u0418\u0428 \u0411\u0415\u041f\u0423\u041b!\u0422\u045e\u043b\u043e\u0432 \u049b\u045e\u043b\u0438\u043d\u0433\u0438\u0437\u0433\u0430 \u043e\u043b\u0433\u0430\u043d\u0434\u0430 \u049b\u0438\u043b\u0430\u0441\u0438\u0437\n\n\u0411\u0443\u0439\u0443\u0440\u0442\u043c\u0430 \u0431\u0435\u0440\u0438\u0448\U0001f447\U0001f447\u2705\nhttps://alijahon.uz/oqim/10414\nhttps://alijahon.uz/oqim/10414", "caption_entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "italic", "offset": 17, "length": 256}, {"type": "bold", "offset": 275, "length": 61}, {"type": "bold", "offset": 338, "length": 21}, {"type": "bold", "offset": 414, "length": 14}, {"type": "url", "offset": 482, "length": 30}, {"type": "url", "offset": 513, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 246, in send_ads_handler
+    await bot.send_photo(u, message.photo[-1].file_id, caption=text_caption,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 565, in send_photo
+    result = await self.request(api.Methods.SEND_PHOTO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+dispatcher.py [LINE:390] #ERROR    [2023-11-09 02:48:14,157]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+error_handler.py [LINE:33] #ERROR    [2023-11-09 10:00:52,355]  TelegramAPIError: Message can't be deleted for everyone 
+Update: {"update_id": 287194488, "callback_query": {"id": "5517920291166710760", "from": {"id": 5579708229, "is_bot": false, "first_name": "Shohjahon&Diyorbek", "username": "NZarina2010", "language_code": "uz"}, "message": {"message_id": 15977848, "from": {"id": 5817589026, "is_bot": true, "first_name": "Kino House Uz\U0001f37f", "username": "KinoHouseUz_bot"}, "chat": {"id": 5579708229, "first_name": "Shohjahon&Diyorbek", "username": "NZarina2010", "type": "private"}, "date": 1699200953, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "KINO HD", "url": "https://t.me/+csxYm2cFHDZjYzU6"}], [{"text": "Tarjima Kinolar", "url": "https://t.me/+m3OXpsGBPiJiYzIy"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "-7736704183890474921", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+error_handler.py [LINE:33] #ERROR    [2023-11-09 10:01:01,469]  TelegramAPIError: Message can't be deleted for everyone 
+Update: {"update_id": 287194489, "callback_query": {"id": "5517920292421209488", "from": {"id": 5579708229, "is_bot": false, "first_name": "Shohjahon&Diyorbek", "username": "NZarina2010", "language_code": "uz"}, "message": {"message_id": 15977848, "from": {"id": 5817589026, "is_bot": true, "first_name": "Kino House Uz\U0001f37f", "username": "KinoHouseUz_bot"}, "chat": {"id": 5579708229, "first_name": "Shohjahon&Diyorbek", "username": "NZarina2010", "type": "private"}, "date": 1699200953, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "KINO HD", "url": "https://t.me/+csxYm2cFHDZjYzU6"}], [{"text": "Tarjima Kinolar", "url": "https://t.me/+m3OXpsGBPiJiYzIy"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "-7736704183890474921", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+error_handler.py [LINE:33] #ERROR    [2023-11-09 10:01:02,556]  TelegramAPIError: Message can't be deleted for everyone 
+Update: {"update_id": 287194490, "callback_query": {"id": "5517920295087655781", "from": {"id": 5579708229, "is_bot": false, "first_name": "Shohjahon&Diyorbek", "username": "NZarina2010", "language_code": "uz"}, "message": {"message_id": 15977848, "from": {"id": 5817589026, "is_bot": true, "first_name": "Kino House Uz\U0001f37f", "username": "KinoHouseUz_bot"}, "chat": {"id": 5579708229, "first_name": "Shohjahon&Diyorbek", "username": "NZarina2010", "type": "private"}, "date": 1699200953, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "KINO HD", "url": "https://t.me/+csxYm2cFHDZjYzU6"}], [{"text": "Tarjima Kinolar", "url": "https://t.me/+m3OXpsGBPiJiYzIy"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "-7736704183890474921", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+error_handler.py [LINE:33] #ERROR    [2023-11-09 14:19:30,858]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 287194579, "callback_query": {"id": "8989234057046613350", "from": {"id": 2092969151, "is_bot": false, "first_name": "\u0410\u0437\u0438\u0437\u0438\u043b\u043b\u0430", "username": "Azizila700", "language_code": "ru"}, "message": {"message_id": 2519698, "chat": {"id": 2092969151, "first_name": "\u0410\u0437\u0438\u0437\u0438\u043b\u043b\u0430", "username": "Azizila700", "type": "private"}, "date": 0}, "chat_instance": "2257585170264464194", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-13 14:33:54,287]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 287197213, "message": {"message_id": 15980603, "from": {"id": 608528075, "is_bot": false, "first_name": "BORZZ", "username": "Borzzie", "language_code": "uz"}, "chat": {"id": 608528075, "first_name": "BORZZ", "username": "Borzzie", "type": "private"}, "date": 1699875223, "video": {"duration": 31, "width": 720, "height": 720, "file_name": "Fayl.mp4", "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQEAAfPYO2VSCZcRzFy2PJBqxiMp7ifxGNs4AAJWDQAC40ZISIkCtiZLVU2xAQAHbQADMwQ", "file_unique_id": "AQADVg0AAuNGSEhy", "file_size": 13060, "width": 320, "height": 320}, "thumb": {"file_id": "AAMCAgADGQEAAfPYO2VSCZcRzFy2PJBqxiMp7ifxGNs4AAJWDQAC40ZISIkCtiZLVU2xAQAHbQADMwQ", "file_unique_id": "AQADVg0AAuNGSEhy", "file_size": 13060, "width": 320, "height": 320}, "file_id": "BAACAgIAAxkBAAHz2DtlUgmXEcxctjyQasYjKe4n8RjbOAACVg0AAuNGSEiJArYmS1VNsTME", "file_unique_id": "AgADVg0AAuNGSEg", "file_size": 2746123}, "caption": "\u0411\u0443\u0442\u0443\u043d \u0434\u0443\u043d\u0451\u0433\u0430 \u043c\u0430\u0448\u0445\u0443\u0440 \u043c\u0430\u0445\u0441\u0443\u043b\u043e\u0442 \u2013 GREEN MASK \u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d\u0433\u0430 \u0435\u0442\u0438\u0431 \u043a\u0435\u043b\u0434\u0438!\n\n100% \u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u0438! (\u0421\u043e\u04b3\u0442\u0430\u043b\u0430\u0440\u0438\u0434\u0430\u043d \u044d\u04b3\u0442\u0438\u0451\u0442 \u0431\u045e\u043b\u0438\u043d\u0433!)\n\n\u2705 \u041e\u0440\u0442\u0438\u049b\u0447\u0430 \u0451\u0493\u043d\u0438 \u0435\u043c\u0438\u0440\u0430\u0434\u0438, \u04b3\u0443\u0441\u043d\u0431\u0443\u0437\u0430\u0440\u043b\u0430\u0440\u043d\u0438\u043d\u0433 \u043e\u043b\u0434\u0438\u043d\u0438 \u043e\u043b\u0430\u0434\u0438. \u2705 \u0422\u0435\u0440\u0438 \u0440\u0430\u043d\u0433\u0438\u043d\u0438 \u044f\u0445\u0448\u0438\u043b\u0430\u0439\u0434\u0438, \u0442\u0435\u0448\u0438\u043a\u043b\u0430\u0440\u043d\u0438 \u043e\u0447\u0430\u0434\u0438, \u045e\u043b\u0438\u043a \u0442\u045e\u049b\u0438\u043c\u0430\u043b\u0430\u0440\u043d\u0438 \u0439\u045e\u049b \u049b\u0438\u043b\u0430\u0434\u0438.\n\u2705 \u0414\u043e\u0493\u043b\u0430\u0440 \u0432\u0430 \u0431\u043e\u0448\u049b\u0430 \u0442\u0435\u0440\u0438\u0434\u0430\u0433\u0438 \u043d\u043e\u0442\u0435\u043a\u0438\u0441\u043b\u0438\u043a\u043d\u0438 \u0442\u0435\u0437 \u0442\u043e\u0437\u0430\u043b\u0430\u0439\u0434\u0438.\n\u2705 \u042e\u0437\u0434\u0430\u0433\u0438 \u0445\u0443\u0441\u043d\u0431\u0443\u0437\u0430\u0440\u043b\u0430\u0440\u043d\u0438 \u0442\u0435\u0437\u0434\u0430 \u0439\u045e\u049b\u043e\u0442\u0430\u0434\u0438.\n\u2705 \u042e\u0437\u0434\u0430\u0433\u0438 \u0430\u0436\u0438\u043d\u043b\u0430\u0440\u043d\u0438 \u0442\u0435\u043a\u0438\u0441\u043b\u0430\u0439\u0434\u0438.\n\u2705 \u0422\u0435\u0440\u0438\u043d\u0438 \u049b\u0430\u0440\u0438\u0448\u0434\u0430\u043d \u0445\u0438\u043c\u043e\u044f \u049b\u0438\u043b\u0430\u0434\u0438\n\n\u041d\u0430\u0440\u04b3\u0438 \u0430\u043a\u0446\u0438\u044f \u043d\u0430\u0440\u04b3\u0434\u0430: 85,000 \u0441\u045e\u043c \n\n\u0415\u0422\u041a\u0410\u0417\u0418\u0428 \u0411\u0415\u0420\u0418\u0428 \u0411\u0415\u041f\u0423\u041b! \u0422\u045e\u043b\u043e\u0432\u043d\u0438 \u049b\u045e\u043b\u0438\u043d\u0433\u0438\u0437\u0433\u0430 \u043e\u043b\u0433\u0430\u043d\u0434\u0430 \u049b\u0438\u043b\u0430\u0441\u0438\u0437.\n\n\u0411\u0443\u0439\u0443\u0440\u0442\u043c\u0430 \u0411\u0435\u0440\u0438\u0448 \u0443\u0447\u0443\u043d\U0001f447\u2705\n\U0001f449https://alijahon.uz/oqim/6804\n\U0001f449https://alijahon.uz/oqim/6804", "caption_entities": [{"type": "bold", "offset": 0, "length": 490}, {"type": "bold", "offset": 492, "length": 22}, {"type": "url", "offset": 517, "length": 29}, {"type": "url", "offset": 549, "length": 29}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-13 17:53:36,756]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 287197289, "callback_query": {"id": "9011180091994092262", "from": {"id": 2098078860, "is_bot": false, "first_name": "Ramis", "last_name": "Usenov", "language_code": "ru"}, "message": {"message_id": 14834799, "chat": {"id": 2098078860, "first_name": "Ramis", "last_name": "Usenov", "type": "private"}, "date": 0}, "chat_instance": "4562169062503840301", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:22] #ERROR    [2023-11-13 21:30:00,172]  Message is not modified
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+error_handler.py [LINE:33] #ERROR    [2023-11-14 07:03:26,596]  TelegramAPIError: Message can't be deleted for everyone 
+Update: {"update_id": 287197472, "callback_query": {"id": "7757810794165987827", "from": {"id": 1806256080, "is_bot": false, "first_name": "\u261d\ufe0fSHOX 0102\u261d\ufe0f", "username": "Shox0102_400", "language_code": "ru"}, "message": {"message_id": 15978635, "from": {"id": 5817589026, "is_bot": true, "first_name": "Kino House Uz\U0001f37f", "username": "KinoHouseUz_bot"}, "chat": {"id": 1806256080, "first_name": "\u261d\ufe0fSHOX 0102\u261d\ufe0f", "username": "Shox0102_400", "type": "private"}, "date": 1699374109, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "KINO HD", "url": "https://t.me/+csxYm2cFHDZjYzU6"}], [{"text": "Tarjima Kinolar", "url": "https://t.me/+m3OXpsGBPiJiYzIy"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "4576729195297579270", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+error_handler.py [LINE:33] #ERROR    [2023-11-15 18:44:18,004]  TelegramAPIError: Message can't be deleted for everyone 
+Update: {"update_id": 287197996, "callback_query": {"id": "7762701163725889104", "from": {"id": 6102362004, "is_bot": false, "first_name": "Qorbobo$$$$", "language_code": "uz"}, "message": {"message_id": 15980579, "from": {"id": 5817589026, "is_bot": true, "first_name": "Kino House Uz\U0001f37f", "username": "KinoHouseUz_bot"}, "chat": {"id": 6102362004, "first_name": "Qorbobo$$$$", "type": "private"}, "date": 1699863991, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "Tarjima Kinolar", "url": "https://t.me/+m3OXpsGBPiJiYzIy"}], [{"text": "Tarjima TV", "url": "https://t.me/+4Rzze2DZvPA0ZjJi"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "3479521656507660118", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
+error_handler.py [LINE:33] #ERROR    [2023-11-15 18:44:35,000]  TelegramAPIError: Message can't be deleted for everyone 
+Update: {"update_id": 287197997, "callback_query": {"id": "7762701165230796773", "from": {"id": 6102362004, "is_bot": false, "first_name": "Qorbobo$$$$", "language_code": "uz"}, "message": {"message_id": 15980579, "from": {"id": 5817589026, "is_bot": true, "first_name": "Kino House Uz\U0001f37f", "username": "KinoHouseUz_bot"}, "chat": {"id": 6102362004, "first_name": "Qorbobo$$$$", "type": "private"}, "date": 1699863991, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "Tarjima Kinolar", "url": "https://t.me/+m3OXpsGBPiJiYzIy"}], [{"text": "Tarjima TV", "url": "https://t.me/+4Rzze2DZvPA0ZjJi"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "3479521656507660118", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@KinoHouseUz_bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeDeleted: Message can't be deleted for everyone
