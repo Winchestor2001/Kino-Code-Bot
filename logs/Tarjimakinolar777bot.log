@@ -1,0 +1,1421 @@
+executor.py [LINE:362] #INFO     [2023-11-05 13:29:41,659]  Bot: KINOLAR 777 [@Tarjimakinolar777bot]
+executor.py [LINE:358] #WARNING  [2023-11-05 13:29:41,742]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-05 13:29:41,793]  Start polling.
+error_handler.py [LINE:33] #ERROR    [2023-11-05 16:29:40,789]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207370780, "callback_query": {"id": "5230121772070240822", "from": {"id": 5512699914, "is_bot": false, "first_name": "Anarbaev", "last_name": "Sydykbek", "language_code": "ru"}, "message": {"message_id": 10754235, "chat": {"id": 5512699914, "first_name": "Anarbaev", "last_name": "Sydykbek", "type": "private"}, "date": 0}, "chat_instance": "929457146447294809", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:37] #ERROR    [2023-11-05 20:28:06,330]  Update: {"update_id": 207371517, "message": {"message_id": 10839325, "from": {"id": 5308089183, "is_bot": false, "first_name": "\u27a3\uabed\U00016913\uabed\U0001d104\U0001d104\U0001d101\U0001d104 \U0001d1bc\U0001d1ad\U0001d1aa\uabed\uabed \uabed\uabed\U0001d400\u0305\u0304\u0363\uabed\ua880\U0001d1bc\U0001d1ad\U0001d1aa\uabed\U00010097\uabed\U0001d417\u0305\u0304\u036f\ua880\uabed\uabed\U0001d1bc\U0001d1ad\U0001d1aa\U00010097\uabed\U0001d408\u0305\u0304\u1dec\ua880\uabed\U0001d1bc\U0001d1ad\U0001d1aa\U00010097 \uabed\U0001d1b0\U0001d104\U0001d101\U0001d104\uabed", "last_name": "\U0001fac2\U0001f981", "language_code": "ru"}, "chat": {"id": 5308089183, "first_name": "\u27a3\uabed\U00016913\uabed\U0001d104\U0001d104\U0001d101\U0001d104 \U0001d1bc\U0001d1ad\U0001d1aa\uabed\uabed \uabed\uabed\U0001d400\u0305\u0304\u0363\uabed\ua880\U0001d1bc\U0001d1ad\U0001d1aa\uabed\U00010097\uabed\U0001d417\u0305\u0304\u036f\ua880\uabed\uabed\U0001d1bc\U0001d1ad\U0001d1aa\U00010097\uabed\U0001d408\u0305\u0304\u1dec\ua880\uabed\U0001d1bc\U0001d1ad\U0001d1aa\U00010097 \uabed\U0001d1b0\U0001d104\U0001d101\U0001d104\uabed", "last_name": "\U0001fac2\U0001f981", "type": "private"}, "date": 1699205286, "text": "\u2078992"}} 
+invalid input syntax for type integer: "\u2078992"
+LINE 1: ...le" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2078992')
+                                                                ^
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "\u2078992"
+LINE 1: ...le" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2078992')
+                                                                ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 128, in movie_code_handler
+    movie_info = await get_movie(code)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/database/connections.py", line 62, in get_movie
+    movie_info = [model_to_dict(item) for item in Movies.select().where(Movies.movie_code == code)]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 7150, in __iter__
+    self.execute()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 1972, in inner
+    return method(self, database, *args, **kwargs)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2043, in execute
+    return self._execute(database)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2216, in _execute
+    cursor = database.execute(self)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3260, in execute
+    return self.execute_sql(sql, params)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3250, in execute_sql
+    with __exception_wrapper__:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3020, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+peewee.DataError: invalid input syntax for type integer: "\u2078992"
+LINE 1: ...le" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2078992')
+                                                                ^
+
+base_events.py [LINE:1744] #ERROR    [2023-11-05 20:28:06,333]  Task exception was never retrieved
+future: <Task finished name='Task-8202' coro=<Dispatcher._process_polling_updates() done, defined at /root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=DataError('invalid input syntax for type integer: "\u2078992"\nLINE 1: ...le" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = \'\u2078992\')\n                                                                ^\n')>
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "\u2078992"
+LINE 1: ...le" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2078992')
+                                                                ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 128, in movie_code_handler
+    movie_info = await get_movie(code)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/database/connections.py", line 62, in get_movie
+    movie_info = [model_to_dict(item) for item in Movies.select().where(Movies.movie_code == code)]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 7150, in __iter__
+    self.execute()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 1972, in inner
+    return method(self, database, *args, **kwargs)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2043, in execute
+    return self._execute(database)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2216, in _execute
+    cursor = database.execute(self)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3260, in execute
+    return self.execute_sql(sql, params)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3250, in execute_sql
+    with __exception_wrapper__:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3020, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+peewee.DataError: invalid input syntax for type integer: "\u2078992"
+LINE 1: ...le" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2078992')
+                                                                ^
+
+error_handler.py [LINE:33] #ERROR    [2023-11-05 20:52:38,175]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207371586, "callback_query": {"id": "6598152884609054610", "from": {"id": 5831219479, "is_bot": false, "first_name": "\ua9c1\u0fd0\u0f35\u0f06K\u035e\u035f\u035b O\u035e\u035f\u035b M\u035e\u035f\u035b R\u035e\u035f\u035b O\u035e\u035f\u035b N\u035e\u035f\u035b.T\u035e\u035f\u035bJ\u035e\u035f\u035b\u0f06 \u327f \u0f3b", "language_code": "ru"}, "message": {"message_id": 6996036, "chat": {"id": 5831219479, "first_name": "\ua9c1\u0fd0\u0f35\u0f06K\u035e\u035f\u035b O\u035e\u035f\u035b M\u035e\u035f\u035b R\u035e\u035f\u035b O\u035e\u035f\u035b N\u035e\u035f\u035b.T\u035e\u035f\u035bJ\u035e\u035f\u035b\u0f06 \u327f \u0f3b", "type": "private"}, "date": 0}, "chat_instance": "7033589541310863086", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-06 17:42:58,436]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207372959, "callback_query": {"id": "2335939567624180253", "from": {"id": 6986329257, "is_bot": false, "first_name": "\U0001f985", "username": "Bexruz_7471", "language_code": "uz"}, "message": {"message_id": 10836739, "chat": {"id": 6986329257, "first_name": "\U0001f985", "username": "Bexruz_7471", "type": "private"}, "date": 0}, "chat_instance": "-2911560059336034616", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-06 19:42:41,556]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207373181, "callback_query": {"id": "7943435455978076541", "from": {"id": 1849475190, "is_bot": false, "first_name": "\u0428\u0435\u0440", "last_name": "\u0422\u0438\u043b\u043b\u0430\u0435\u044b", "language_code": "uz"}, "message": {"message_id": 10840500, "chat": {"id": 1849475190, "first_name": "\u0428\u0435\u0440", "last_name": "\u0422\u0438\u043b\u043b\u0430\u0435\u044b", "type": "private"}, "date": 0}, "chat_instance": "-3326953379514800221", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-06 20:15:44,207]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207373244, "callback_query": {"id": "5687755036294819097", "from": {"id": 5619250962, "is_bot": false, "first_name": "Shahzod", "username": "B_2005_06", "language_code": "uz"}, "message": {"message_id": 10836563, "chat": {"id": 5619250962, "first_name": "Shahzod", "username": "B_2005_06", "type": "private"}, "date": 0}, "chat_instance": "4587968590105154337", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 05:15:27,307]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207373643, "callback_query": {"id": "8425097764549134354", "from": {"id": 6256588231, "is_bot": false, "first_name": "Zokirjon", "language_code": "uz"}, "message": {"message_id": 10841005, "chat": {"id": 6256588231, "first_name": "Zokirjon", "type": "private"}, "date": 0}, "chat_instance": "8708759627540338858", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 05:15:44,808]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207373646, "callback_query": {"id": "8425097764993397683", "from": {"id": 6256588231, "is_bot": false, "first_name": "Zokirjon", "language_code": "uz"}, "message": {"message_id": 10841005, "chat": {"id": 6256588231, "first_name": "Zokirjon", "type": "private"}, "date": 0}, "chat_instance": "8708759627540338858", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 09:45:08,167]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 207373907, "message": {"message_id": 10842452, "from": {"id": 608528075, "is_bot": false, "first_name": "BORZZ", "username": "Borzzie", "language_code": "uz"}, "chat": {"id": 608528075, "first_name": "BORZZ", "username": "Borzzie", "type": "private"}, "date": 1699339500, "photo": [{"file_id": "AgACAgQAAxkBAAGlcVRlSdzsONJPuIoCWwPBaM3fsKBTuQACaLIxG7KxxFGQgPOxonIiKgEAAwIAA3MAAzME", "file_unique_id": "AQADaLIxG7KxxFF4", "file_size": 2033, "width": 88, "height": 90}, {"file_id": "AgACAgQAAxkBAAGlcVRlSdzsONJPuIoCWwPBaM3fsKBTuQACaLIxG7KxxFGQgPOxonIiKgEAAwIAA20AAzME", "file_unique_id": "AQADaLIxG7KxxFFy", "file_size": 22434, "width": 312, "height": 320}, {"file_id": "AgACAgQAAxkBAAGlcVRlSdzsONJPuIoCWwPBaM3fsKBTuQACaLIxG7KxxFGQgPOxonIiKgEAAwIAA3gAAzME", "file_unique_id": "AQADaLIxG7KxxFF9", "file_size": 80998, "width": 780, "height": 800}, {"file_id": "AgACAgQAAxkBAAGlcVRlSdzsONJPuIoCWwPBaM3fsKBTuQACaLIxG7KxxFGQgPOxonIiKgEAAwIAA3kAAzME", "file_unique_id": "AQADaLIxG7KxxFF-", "file_size": 100395, "width": 975, "height": 1000}], "caption": "Provocative gel\U0001f525\n\n Provocative gel \u044d\u0440\u043a\u0430\u043a\u043b\u0430\u0440 \u0443\u0447\u0443\u043d \u043c\u0430\u0445\u0441\u0443\u0441 \u0432\u043e\u0441\u0438\u0442\u0430 \u2705 Provocative gel\u2013 \u0436\u0438\u043d\u0441\u0438\u0439 \u0430\u044a\u0437\u043e\u043d\u0438 \u045e\u0441\u0442\u0438\u0440\u0438\u0448\u0433\u0430 \u043a\u0430\u0444\u043e\u043b\u0430\u0442 \u0431\u0435\u0440\u0430\u0434\u0438 \u0431\u0438\u0440 \u043e\u0439\u0434\u0430 5 \u0441\u043c \u0433\u0430.\u2705 \u041a\u0443\u043d\u0438\u0433\u0430 \u0444\u0430\u049b\u0430\u0442 \u0431\u0438\u0440 \u043c\u0430\u0440\u0442\u0430 \u0444\u043e\u0439\u0434\u0430\u043b\u0430\u043d\u0438\u043b\u0430\u0434\u0438\u2755 \n\u2705 \u0424\u0430\u049b\u0430\u0442 \u0442\u0430\u0431\u0438\u0438\u0439 \u0439\u045e\u043b \u0431\u0438\u043b\u0430\u043d \u043a\u0430\u0442\u0442\u0430\u043b\u0430\u0448\u0430\u0434\u0438 \u2705 \u0411\u0438\u0440 \u041e\u0439\u0434\u0430 \u0443\u0437\u0443\u043d\u043b\u0438\u0433\u0438 +5 \u0441\u043c \u2705 \u0416\u0438\u043d\u0441\u0438\u0439 \u0430\u043b\u043e\u049b\u0430 \u0436\u0430\u0440\u0430\u0451\u043d\u0438 3 \u0441\u043e\u0430\u0442\u0433\u0430\u0447\u0430 \u0447\u045e\u0437\u0438\u043b\u0430\u0434\u0438 \u2705 \u041d\u0430\u0442\u0438\u0436\u0430\u0441\u0438\u043d\u0438 1 \u0445\u0430\u0444\u0442\u0430\u0434\u0430 \u0441\u0435\u0437\u0430\u0441\u0438\u0437 \u2705 \u0423\u0448\u0431\u0443 \u043a\u0440\u0435\u043c, \u0445\u0435\u0447 \u049b\u0430\u043d\u0434\u0430\u0439 \u0437\u0430\u0440\u0430\u0440\u0433\u0430 \u044d\u0433\u0430 \u044d\u043c\u0430\u0441 \u2705 A\u043b\u0435\u0440\u0433\u0438\u044f\u0433\u0430 \u043e\u043b\u0438\u0431 \u043a\u0435\u043b\u043c\u0430\u0439\u0434\u0438, \u0448\u0443 \u0431\u0438\u043b\u0430\u043d \u0431\u0438\u0440 \u049b\u0430\u0442\u043e\u0440\u0434\u0430 Provocative gel \u0433\u0430 \u045e\u0440\u0433\u0430\u043d\u0438\u0431 \u049b\u043e\u043b\u043c\u0430\u0439\u0441\u0438\u0437 \u2705 \u0412\u0430 \u044d\u043d\u0433 \u043c\u0443\u0445\u0438\u043c\u0438 \u0443\u043d\u0434\u0430\u043d \u0444\u043e\u0439\u0434\u0430\u043b\u0430\u043d\u0433\u0430\u043d\u0434\u0430\u043d \u0441\u045e\u043d\u0433 \u044d\u0440\u0438\u0448\u0433\u0430\u043d \u043d\u0430\u0442\u0438\u0436\u0430 \u0441\u0438\u0437 \u0431\u0438\u043b\u0430\u043d \u0443\u043c\u0440\u0438\u043d\u0433\u0438\u0437 \u0441\u045e\u043d\u0433\u0438\u0433\u0430\u0447\u0430 \u049b\u043e\u043b\u0430\u0434\u0438 \n\n\n \U0001f4b0 Mahsulot narxi: 69000 so'm\n\n \u2705 To'lovni mahsulotni qo'lingizga olganda qilasiz\n\nBuyurtma berish uchun\U0001f447\u2705\nhttps://100k.uz/oqim/332678\nhttps://100k.uz/oqim/332678\nhttps://100k.uz/oqim/332678\n\n \U0001f69a O\u2018zbekiston bo\u2018ylab yetkazib berish xizmati mavjud \n \n \U0001f381 2 ta mahsulot xarid qilgan mijozga buyurtma mutlaqo tekinga yetqazib beriladi", "caption_entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 20, "length": 628}, {"type": "url", "offset": 648, "length": 27}, {"type": "bold", "offset": 648, "length": 27}, {"type": "url", "offset": 676, "length": 27}, {"type": "bold", "offset": 676, "length": 27}, {"type": "url", "offset": 704, "length": 27}, {"type": "bold", "offset": 704, "length": 27}, {"type": "bold", "offset": 734, "length": 138}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 246, in send_ads_handler
+    await bot.send_photo(u, message.photo[-1].file_id, caption=text_caption,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 565, in send_photo
+    result = await self.request(api.Methods.SEND_PHOTO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-07 12:45:10,224]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207374176, "callback_query": {"id": "4947043277599650464", "from": {"id": 5446790566, "is_bot": false, "first_name": "Baxtzod", "username": "NB_08_16", "language_code": "uz"}, "message": {"message_id": 10840874, "chat": {"id": 5446790566, "first_name": "Baxtzod", "username": "NB_08_16", "type": "private"}, "date": 0}, "chat_instance": "-3199370380851248221", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 12:45:15,120]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207374179, "callback_query": {"id": "4947043278508518146", "from": {"id": 5446790566, "is_bot": false, "first_name": "Baxtzod", "username": "NB_08_16", "language_code": "uz"}, "message": {"message_id": 10840874, "chat": {"id": 5446790566, "first_name": "Baxtzod", "username": "NB_08_16", "type": "private"}, "date": 0}, "chat_instance": "-3199370380851248221", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 12:45:19,932]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207374180, "callback_query": {"id": "4947043276470009129", "from": {"id": 5446790566, "is_bot": false, "first_name": "Baxtzod", "username": "NB_08_16", "language_code": "uz"}, "message": {"message_id": 10840874, "chat": {"id": 5446790566, "first_name": "Baxtzod", "username": "NB_08_16", "type": "private"}, "date": 0}, "chat_instance": "-3199370380851248221", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 18:33:01,359]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207374859, "callback_query": {"id": "4404235210128212492", "from": {"id": 5320408214, "is_bot": false, "first_name": "Maruf", "language_code": "ru"}, "message": {"message_id": 10838094, "chat": {"id": 5320408214, "first_name": "Maruf", "type": "private"}, "date": 0}, "chat_instance": "6782353463790666035", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 18:47:35,122]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207374886, "callback_query": {"id": "8274719632892774854", "from": {"id": 1926608298, "is_bot": false, "first_name": "_BERUNIY_SHOH_", "username": "BERUNIY_SHOH_777_02", "language_code": "uz"}, "message": {"message_id": 10842271, "chat": {"id": 1926608298, "first_name": "_BERUNIY_SHOH_", "username": "BERUNIY_SHOH_777_02", "type": "private"}, "date": 0}, "chat_instance": "-765027349659946234", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-07 19:56:14,265]  TelegramAPIError: Aiohttp client throws an error: ClientOSError: [Errno 104] Connection reset by peer 
+Update: {"update_id": 207375077, "callback_query": {"id": "7783377624507967623", "from": {"id": 6107176118, "is_bot": false, "first_name": "SAIDAKBAR", "username": "Alhamdulillah_1227", "language_code": "uz"}, "message": {"message_id": 10844181, "from": {"id": 5476451508, "is_bot": true, "first_name": "KINOLAR 777", "username": "Tarjimakinolar777bot"}, "chat": {"id": 6107176118, "first_name": "SAIDAKBAR", "username": "Alhamdulillah_1227", "type": "private"}, "date": 1699376149, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "KINO HD", "url": "https://t.me/+csxYm2cFHDZjYzU6"}], [{"text": "Tarjima Kinolar", "url": "https://t.me/+m3OXpsGBPiJiYzIy"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "8450944210363777499", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 320, in check_subscribe_callback
+    text = await channels_check_func(user_id)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 30, in channels_check_func
+    check_user = await bot.get_chat_member(channel_id, user_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 2682, in get_chat_member
+    result = await self.request(api.Methods.GET_CHAT_MEMBER, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [Errno 104] Connection reset by peer
+error_handler.py [LINE:33] #ERROR    [2023-11-07 20:34:52,808]  TelegramAPIError: Aiohttp client throws an error: ClientOSError: [Errno 104] Connection reset by peer 
+Update: {"update_id": 207375154, "message": {"message_id": 10844296, "from": {"id": 6105935184, "is_bot": false, "first_name": "Ok", "language_code": "ru"}, "chat": {"id": 6105935184, "first_name": "Ok", "type": "private"}, "date": 1699378492, "text": "864"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ClientOSError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 129, in movie_code_handler
+    bot_name_link = await bot.get_me()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 233, in get_me
+    result = await self.request(api.Methods.GET_ME, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientOSError: [Errno 104] Connection reset by peer
+dispatcher.py [LINE:390] #ERROR    [2023-11-08 01:39:36,633]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+error_handler.py [LINE:33] #ERROR    [2023-11-08 11:00:40,570]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207375862, "callback_query": {"id": "4448421044019119437", "from": {"id": 5330696030, "is_bot": false, "first_name": "Sayfullo", "last_name": "Mamaroziqov", "language_code": "ru"}, "message": {"message_id": 10842971, "chat": {"id": 5330696030, "first_name": "Sayfullo", "last_name": "Mamaroziqov", "type": "private"}, "date": 0}, "chat_instance": "1147023976890270774", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-08 11:34:12,418]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207375886, "callback_query": {"id": "8725673174717752535", "from": {"id": 6326571397, "is_bot": false, "first_name": "~muhlisa\U0001fa77\U0001f984", "language_code": "ru"}, "message": {"message_id": 10841898, "chat": {"id": 6326571397, "first_name": "~muhlisa\U0001fa77\U0001f984", "type": "private"}, "date": 0}, "chat_instance": "-636428952583161127", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+executor.py [LINE:362] #INFO     [2023-11-08 13:42:17,699]  Bot: KINOLAR 777 [@Tarjimakinolar777bot]
+executor.py [LINE:358] #WARNING  [2023-11-08 13:42:17,827]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-08 13:42:17,942]  Start polling.
+error_handler.py [LINE:33] #ERROR    [2023-11-08 13:56:10,895]  TelegramAPIError: Forbidden: bot was blocked by the user 
+Update: {"update_id": 207376037, "message": {"message_id": 10845386, "from": {"id": 6013735219, "is_bot": false, "first_name": "Maqsutbek", "language_code": "ru"}, "chat": {"id": 6013735219, "first_name": "Maqsutbek", "type": "private"}, "date": 1699440970, "text": "/start", "entities": [{"type": "bot_command", "offset": 0, "length": 6}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 54, in welcome
+    await message.answer(f"<b>\u274c TAYORMASSIZ \u274c</b>\n\n"
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 438, in answer
+    return await self.bot.send_message(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.BotBlocked: Forbidden: bot was blocked by the user
+error_handler.py [LINE:33] #ERROR    [2023-11-08 18:18:07,484]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207376387, "callback_query": {"id": "8026317607101751958", "from": {"id": 1868772694, "is_bot": false, "first_name": "\u041c\u0430\u043c\u0430\u0434\u0438\u0435\u0432", "last_name": "\u0421\u0430\u0440\u0432\u0430\u0440", "language_code": "ru"}, "message": {"message_id": 8379836, "chat": {"id": 1868772694, "first_name": "\u041c\u0430\u043c\u0430\u0434\u0438\u0435\u0432", "last_name": "\u0421\u0430\u0440\u0432\u0430\u0440", "type": "private"}, "date": 0}, "chat_instance": "-7898119453350817926", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-08 18:18:10,087]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207376388, "callback_query": {"id": "8026317606007040111", "from": {"id": 1868772694, "is_bot": false, "first_name": "\u041c\u0430\u043c\u0430\u0434\u0438\u0435\u0432", "last_name": "\u0421\u0430\u0440\u0432\u0430\u0440", "language_code": "ru"}, "message": {"message_id": 8379836, "chat": {"id": 1868772694, "first_name": "\u041c\u0430\u043c\u0430\u0434\u0438\u0435\u0432", "last_name": "\u0421\u0430\u0440\u0432\u0430\u0440", "type": "private"}, "date": 0}, "chat_instance": "-7898119453350817926", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-08 21:09:41,382]  TelegramAPIError: Message_id_invalid 
+Update: {"update_id": 207376702, "callback_query": {"id": "2613608181168491537", "from": {"id": 608528075, "is_bot": false, "first_name": "BORZZ", "username": "Borzzie", "language_code": "uz"}, "message": {"message_id": 10845614, "from": {"id": 5476451508, "is_bot": true, "first_name": "KINOLAR 777", "username": "Tarjimakinolar777bot"}, "chat": {"id": 608528075, "first_name": "BORZZ", "username": "Borzzie", "type": "private"}, "date": 1699450518, "edit_date": 1699450532, "text": "Siz admin paneldasiz:\n\nBot a'zolari: 184477 ta", "entities": [{"type": "bold", "offset": 37, "length": 6}], "reply_markup": {"inline_keyboard": [[{"text": "\u2795 Kanal qo'shish", "callback_data": "add_channel"}, {"text": "Xabar junatish \U0001f4ee", "callback_data": "rek"}], [{"text": "\u2795 Admin qo'shish", "callback_data": "add_admin"}, {"text": "Kino qushish \U0001f4fd", "callback_data": "add_movie"}], [{"text": "Ortga \u21a9\ufe0f", "callback_data": "del_panel"}]]}}, "chat_instance": "3395664490053037437", "data": "add_channel"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 341, in add_channel_callback
+    await bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdInvalid: Message_id_invalid
+dispatcher.py [LINE:390] #ERROR    [2023-11-09 02:48:10,617]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+error_handler.py [LINE:22] #ERROR    [2023-11-09 07:04:53,522]  Message is not modified
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+error_handler.py [LINE:33] #ERROR    [2023-11-09 19:27:14,925]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207377621, "callback_query": {"id": "6673872483745615132", "from": {"id": 5848849322, "is_bot": false, "first_name": "aki__papski", "username": "aki_papski2001", "language_code": "uz"}, "message": {"message_id": 10846379, "chat": {"id": 5848849322, "first_name": "aki__papski", "username": "aki_papski2001", "type": "private"}, "date": 0}, "chat_instance": "4308833558148912935", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-09 19:27:35,415]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207377622, "callback_query": {"id": "6673872484105622252", "from": {"id": 5848849322, "is_bot": false, "first_name": "aki__papski", "username": "aki_papski2001", "language_code": "uz"}, "message": {"message_id": 10846379, "chat": {"id": 5848849322, "first_name": "aki__papski", "username": "aki_papski2001", "type": "private"}, "date": 0}, "chat_instance": "4308833558148912935", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-09 20:09:02,499]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207377661, "callback_query": {"id": "1867092972365568710", "from": {"id": 434716458, "is_bot": false, "first_name": "Murodillo", "username": "Ilhomiddinov", "language_code": "uz"}, "message": {"message_id": 10753059, "chat": {"id": 434716458, "first_name": "Murodillo", "username": "Ilhomiddinov", "type": "private"}, "date": 0}, "chat_instance": "4126611874669118821", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-10 08:58:52,946]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207377941, "callback_query": {"id": "3471232958738484324", "from": {"id": 5103176700, "is_bot": false, "first_name": "@al1sher_123", "username": "QABULOV_I5", "language_code": "uz"}, "message": {"message_id": 10845023, "chat": {"id": 5103176700, "first_name": "@al1sher_123", "username": "QABULOV_I5", "type": "private"}, "date": 0}, "chat_instance": "-1473421163184906168", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:22] #ERROR    [2023-11-10 18:06:26,951]  Message is not modified
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+error_handler.py [LINE:33] #ERROR    [2023-11-11 00:02:54,509]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207379605, "callback_query": {"id": "3287271607259182628", "from": {"id": 765377564, "is_bot": false, "first_name": "Komil", "username": "Komil_000007", "language_code": "uz"}, "message": {"message_id": 10847563, "chat": {"id": 765377564, "first_name": "Komil", "username": "Komil_000007", "type": "private"}, "date": 0}, "chat_instance": "-7200819683799169275", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-11 00:03:33,899]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207379606, "callback_query": {"id": "3287271608660122065", "from": {"id": 765377564, "is_bot": false, "first_name": "Komil", "username": "Komil_000007", "language_code": "uz"}, "message": {"message_id": 10847563, "chat": {"id": 765377564, "first_name": "Komil", "username": "Komil_000007", "type": "private"}, "date": 0}, "chat_instance": "-7200819683799169275", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-11 13:57:37,601]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207380011, "callback_query": {"id": "6120294992953116647", "from": {"id": 5719959518, "is_bot": false, "first_name": "\u0414\u0438\u043b\u044f \u0411\u0430\u0431\u0430\u0436\u0430\u043d", "language_code": "ru"}, "message": {"message_id": 10747936, "chat": {"id": 5719959518, "first_name": "\u0414\u0438\u043b\u044f \u0411\u0430\u0431\u0430\u0436\u0430\u043d", "type": "private"}, "date": 0}, "chat_instance": "8854704612129936679", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:37] #ERROR    [2023-11-11 16:02:34,437]  Update: {"update_id": 207380095, "message": {"message_id": 10849016, "from": {"id": 6151269484, "is_bot": false, "first_name": "§...§...§", "username": "Ollohni_bandasi0707", "language_code": "uz"}, "chat": {"id": 6151269484, "first_name": "§...§...§", "username": "Ollohni_bandasi0707", "type": "private"}, "date": 1699707754, "text": "\u2076\u2077"}} 
+invalid input syntax for type integer: "\u2076\u2077"
+LINE 1: ...itle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2076\u2077')
+                                                                  ^
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "\u2076\u2077"
+LINE 1: ...itle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2076\u2077')
+                                                                  ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 128, in movie_code_handler
+    movie_info = await get_movie(code)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/database/connections.py", line 62, in get_movie
+    movie_info = [model_to_dict(item) for item in Movies.select().where(Movies.movie_code == code)]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 7150, in __iter__
+    self.execute()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 1972, in inner
+    return method(self, database, *args, **kwargs)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2043, in execute
+    return self._execute(database)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2216, in _execute
+    cursor = database.execute(self)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3260, in execute
+    return self.execute_sql(sql, params)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3250, in execute_sql
+    with __exception_wrapper__:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3020, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+peewee.DataError: invalid input syntax for type integer: "\u2076\u2077"
+LINE 1: ...itle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2076\u2077')
+                                                                  ^
+
+base_events.py [LINE:1744] #ERROR    [2023-11-11 16:02:34,446]  Task exception was never retrieved
+future: <Task finished name='Task-34372' coro=<Dispatcher._process_polling_updates() done, defined at /root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=DataError('invalid input syntax for type integer: "\u2076\u2077"\nLINE 1: ...itle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = \'\u2076\u2077\')\n                                                                  ^\n')>
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "\u2076\u2077"
+LINE 1: ...itle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2076\u2077')
+                                                                  ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 128, in movie_code_handler
+    movie_info = await get_movie(code)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/database/connections.py", line 62, in get_movie
+    movie_info = [model_to_dict(item) for item in Movies.select().where(Movies.movie_code == code)]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 7150, in __iter__
+    self.execute()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 1972, in inner
+    return method(self, database, *args, **kwargs)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2043, in execute
+    return self._execute(database)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2216, in _execute
+    cursor = database.execute(self)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3260, in execute
+    return self.execute_sql(sql, params)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3250, in execute_sql
+    with __exception_wrapper__:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3020, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+peewee.DataError: invalid input syntax for type integer: "\u2076\u2077"
+LINE 1: ...itle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2076\u2077')
+                                                                  ^
+
+error_handler.py [LINE:33] #ERROR    [2023-11-11 21:44:00,096]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207380435, "callback_query": {"id": "6702134336462253451", "from": {"id": 5855429547, "is_bot": false, "first_name": "\u0627\u0643\u062d\u0647Muxammadalli", "last_name": "\ufdfd", "username": "AmOrafatiii", "language_code": "uz"}, "message": {"message_id": 10847273, "chat": {"id": 5855429547, "first_name": "\u0627\u0643\u062d\u0647Muxammadalli", "last_name": "\ufdfd", "username": "AmOrafatiii", "type": "private"}, "date": 0}, "chat_instance": "-6019856084359807715", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:22] #ERROR    [2023-11-11 22:21:23,563]  Message is not modified
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+error_handler.py [LINE:33] #ERROR    [2023-11-12 13:18:49,190]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207380772, "callback_query": {"id": "4448421041797540259", "from": {"id": 5330696030, "is_bot": false, "first_name": "Sayfullo", "last_name": "Mamaroziqov", "language_code": "ru"}, "message": {"message_id": 10842971, "chat": {"id": 5330696030, "first_name": "Sayfullo", "last_name": "Mamaroziqov", "type": "private"}, "date": 0}, "chat_instance": "1147023976890270774", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-13 08:35:21,118]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207381461, "callback_query": {"id": "48358586034796069", "from": {"id": 6453710304, "is_bot": false, "first_name": "Ilyos", "language_code": "ru"}, "message": {"message_id": 10850628, "from": {"id": 5476451508, "is_bot": true, "first_name": "KINOLAR 777", "username": "Tarjimakinolar777bot"}, "chat": {"id": 6453710304, "first_name": "Ilyos", "type": "private"}, "date": 1699853686, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "Tarjima Kinolar", "url": "https://t.me/+m3OXpsGBPiJiYzIy"}], [{"text": "Tarjima TV", "url": "https://t.me/+4Rzze2DZvPA0ZjJi"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "199966671947703793", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-13 11:43:34,705]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207381560, "callback_query": {"id": "6510281196218092450", "from": {"id": 5810760257, "is_bot": false, "first_name": "XUSHNUDBEK", "username": "Xushnudbek_0406", "language_code": "uz"}, "message": {"message_id": 10847177, "chat": {"id": 5810760257, "first_name": "XUSHNUDBEK", "username": "Xushnudbek_0406", "type": "private"}, "date": 0}, "chat_instance": "-188348915060450737", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-13 11:43:52,606]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207381561, "callback_query": {"id": "6510281198545151475", "from": {"id": 5810760257, "is_bot": false, "first_name": "XUSHNUDBEK", "username": "Xushnudbek_0406", "language_code": "uz"}, "message": {"message_id": 10847177, "chat": {"id": 5810760257, "first_name": "XUSHNUDBEK", "username": "Xushnudbek_0406", "type": "private"}, "date": 0}, "chat_instance": "-188348915060450737", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-13 11:43:53,539]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207381562, "callback_query": {"id": "8455695109196281736", "from": {"id": 6263712230, "is_bot": false, "first_name": "..", "language_code": "uz"}, "message": {"message_id": 10659670, "chat": {"id": 6263712230, "first_name": "..", "type": "private"}, "date": 0}, "chat_instance": "-5124629023743569273", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-13 14:33:52,416]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 207381666, "message": {"message_id": 10850854, "from": {"id": 608528075, "is_bot": false, "first_name": "BORZZ", "username": "Borzzie", "language_code": "uz"}, "chat": {"id": 608528075, "first_name": "BORZZ", "username": "Borzzie", "type": "private"}, "date": 1699875223, "video": {"duration": 31, "width": 720, "height": 720, "file_name": "Fayl.mp4", "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQEAAaWSJmVSCZcndDIVCno-D1kznQTaJ24TAAJWDQAC40ZISKkx4FolZs3NAQAHbQADMwQ", "file_unique_id": "AQADVg0AAuNGSEhy", "file_size": 13060, "width": 320, "height": 320}, "thumb": {"file_id": "AAMCAgADGQEAAaWSJmVSCZcndDIVCno-D1kznQTaJ24TAAJWDQAC40ZISKkx4FolZs3NAQAHbQADMwQ", "file_unique_id": "AQADVg0AAuNGSEhy", "file_size": 13060, "width": 320, "height": 320}, "file_id": "BAACAgIAAxkBAAGlkiZlUgmXJ3QyFQp6Pg9ZM50E2iduEwACVg0AAuNGSEipMeBaJWbNzTME", "file_unique_id": "AgADVg0AAuNGSEg", "file_size": 2746123}, "caption": "\u0411\u0443\u0442\u0443\u043d \u0434\u0443\u043d\u0451\u0433\u0430 \u043c\u0430\u0448\u0445\u0443\u0440 \u043c\u0430\u0445\u0441\u0443\u043b\u043e\u0442 \u2013 GREEN MASK \u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d\u0433\u0430 \u0435\u0442\u0438\u0431 \u043a\u0435\u043b\u0434\u0438!\n\n100% \u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u0438! (\u0421\u043e\u04b3\u0442\u0430\u043b\u0430\u0440\u0438\u0434\u0430\u043d \u044d\u04b3\u0442\u0438\u0451\u0442 \u0431\u045e\u043b\u0438\u043d\u0433!)\n\n\u2705 \u041e\u0440\u0442\u0438\u049b\u0447\u0430 \u0451\u0493\u043d\u0438 \u0435\u043c\u0438\u0440\u0430\u0434\u0438, \u04b3\u0443\u0441\u043d\u0431\u0443\u0437\u0430\u0440\u043b\u0430\u0440\u043d\u0438\u043d\u0433 \u043e\u043b\u0434\u0438\u043d\u0438 \u043e\u043b\u0430\u0434\u0438. \u2705 \u0422\u0435\u0440\u0438 \u0440\u0430\u043d\u0433\u0438\u043d\u0438 \u044f\u0445\u0448\u0438\u043b\u0430\u0439\u0434\u0438, \u0442\u0435\u0448\u0438\u043a\u043b\u0430\u0440\u043d\u0438 \u043e\u0447\u0430\u0434\u0438, \u045e\u043b\u0438\u043a \u0442\u045e\u049b\u0438\u043c\u0430\u043b\u0430\u0440\u043d\u0438 \u0439\u045e\u049b \u049b\u0438\u043b\u0430\u0434\u0438.\n\u2705 \u0414\u043e\u0493\u043b\u0430\u0440 \u0432\u0430 \u0431\u043e\u0448\u049b\u0430 \u0442\u0435\u0440\u0438\u0434\u0430\u0433\u0438 \u043d\u043e\u0442\u0435\u043a\u0438\u0441\u043b\u0438\u043a\u043d\u0438 \u0442\u0435\u0437 \u0442\u043e\u0437\u0430\u043b\u0430\u0439\u0434\u0438.\n\u2705 \u042e\u0437\u0434\u0430\u0433\u0438 \u0445\u0443\u0441\u043d\u0431\u0443\u0437\u0430\u0440\u043b\u0430\u0440\u043d\u0438 \u0442\u0435\u0437\u0434\u0430 \u0439\u045e\u049b\u043e\u0442\u0430\u0434\u0438.\n\u2705 \u042e\u0437\u0434\u0430\u0433\u0438 \u0430\u0436\u0438\u043d\u043b\u0430\u0440\u043d\u0438 \u0442\u0435\u043a\u0438\u0441\u043b\u0430\u0439\u0434\u0438.\n\u2705 \u0422\u0435\u0440\u0438\u043d\u0438 \u049b\u0430\u0440\u0438\u0448\u0434\u0430\u043d \u0445\u0438\u043c\u043e\u044f \u049b\u0438\u043b\u0430\u0434\u0438\n\n\u041d\u0430\u0440\u04b3\u0438 \u0430\u043a\u0446\u0438\u044f \u043d\u0430\u0440\u04b3\u0434\u0430: 85,000 \u0441\u045e\u043c \n\n\u0415\u0422\u041a\u0410\u0417\u0418\u0428 \u0411\u0415\u0420\u0418\u0428 \u0411\u0415\u041f\u0423\u041b! \u0422\u045e\u043b\u043e\u0432\u043d\u0438 \u049b\u045e\u043b\u0438\u043d\u0433\u0438\u0437\u0433\u0430 \u043e\u043b\u0433\u0430\u043d\u0434\u0430 \u049b\u0438\u043b\u0430\u0441\u0438\u0437.\n\n\u0411\u0443\u0439\u0443\u0440\u0442\u043c\u0430 \u0411\u0435\u0440\u0438\u0448 \u0443\u0447\u0443\u043d\U0001f447\u2705\n\U0001f449https://alijahon.uz/oqim/6804\n\U0001f449https://alijahon.uz/oqim/6804", "caption_entities": [{"type": "bold", "offset": 0, "length": 490}, {"type": "bold", "offset": 492, "length": 22}, {"type": "url", "offset": 517, "length": 29}, {"type": "url", "offset": 549, "length": 29}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-13 19:18:30,572]  TelegramAPIError: Forbidden: bot is not a member of the channel chat 
+Update: {"update_id": 207381877, "message": {"message_id": 10851098, "from": {"id": 5492642015, "is_bot": false, "first_name": "\u0438\u0441\u043b\u043e\u043c\u0436\u043e\u043d", "language_code": "ru"}, "chat": {"id": 5492642015, "first_name": "\u0438\u0441\u043b\u043e\u043c\u0436\u043e\u043d", "type": "private"}, "date": 1699892310, "text": "43"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 130, in movie_code_handler
+    check_channel = await channels_check_func(user_id)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 30, in channels_check_func
+    check_user = await bot.get_chat_member(channel_id, user_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 2682, in get_chat_member
+    result = await self.request(api.Methods.GET_CHAT_MEMBER, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.Unauthorized: Forbidden: bot is not a member of the channel chat
+error_handler.py [LINE:33] #ERROR    [2023-11-13 19:18:43,229]  TelegramAPIError: Forbidden: bot is not a member of the channel chat 
+Update: {"update_id": 207381878, "message": {"message_id": 10851099, "from": {"id": 5492642015, "is_bot": false, "first_name": "\u0438\u0441\u043b\u043e\u043c\u0436\u043e\u043d", "language_code": "ru"}, "chat": {"id": 5492642015, "first_name": "\u0438\u0441\u043b\u043e\u043c\u0436\u043e\u043d", "type": "private"}, "date": 1699892323, "text": "46"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 130, in movie_code_handler
+    check_channel = await channels_check_func(user_id)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 30, in channels_check_func
+    check_user = await bot.get_chat_member(channel_id, user_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 2682, in get_chat_member
+    result = await self.request(api.Methods.GET_CHAT_MEMBER, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.Unauthorized: Forbidden: bot is not a member of the channel chat
+error_handler.py [LINE:22] #ERROR    [2023-11-13 20:13:15,043]  Message is not modified
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+error_handler.py [LINE:22] #ERROR    [2023-11-13 20:13:15,421]  Message is not modified
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageNotModified: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+error_handler.py [LINE:33] #ERROR    [2023-11-14 12:15:27,364]  TelegramAPIError: Message_id_invalid 
+Update: {"update_id": 207382387, "callback_query": {"id": "2613608183145905872", "from": {"id": 608528075, "is_bot": false, "first_name": "BORZZ", "username": "Borzzie", "language_code": "uz"}, "message": {"message_id": 10851101, "from": {"id": 5476451508, "is_bot": true, "first_name": "KINOLAR 777", "username": "Tarjimakinolar777bot"}, "chat": {"id": 608528075, "first_name": "BORZZ", "username": "Borzzie", "type": "private"}, "date": 1699892366, "edit_date": 1699892403, "text": "Siz admin paneldasiz:\n\nBot a'zolari: 184655 ta", "entities": [{"type": "bold", "offset": 37, "length": 6}], "reply_markup": {"inline_keyboard": [[{"text": "\u2795 Kanal qo'shish", "callback_data": "add_channel"}, {"text": "Xabar junatish \U0001f4ee", "callback_data": "rek"}], [{"text": "\u2795 Admin qo'shish", "callback_data": "add_admin"}, {"text": "Kino qushish \U0001f4fd", "callback_data": "add_movie"}], [{"text": "Ortga \u21a9\ufe0f", "callback_data": "del_panel"}]]}}, "chat_instance": "3395664490053037437", "data": "add_channel"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 341, in add_channel_callback
+    await bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdInvalid: Message_id_invalid
+error_handler.py [LINE:33] #ERROR    [2023-11-14 12:59:33,685]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207382418, "callback_query": {"id": "9169667806251730631", "from": {"id": 2134979657, "is_bot": false, "first_name": "\u0410\u0431\u0431\u043e\u0441", "last_name": "\u0422\u0430\u0448\u0431\u0430\u0435\u0432", "username": "tshbyv07", "language_code": "ru"}, "message": {"message_id": 10851684, "from": {"id": 5476451508, "is_bot": true, "first_name": "KINOLAR 777", "username": "Tarjimakinolar777bot"}, "chat": {"id": 2134979657, "first_name": "\u0410\u0431\u0431\u043e\u0441", "last_name": "\u0422\u0430\u0448\u0431\u0430\u0435\u0432", "username": "tshbyv07", "type": "private"}, "date": 1699955955, "text": "\u274c TAYORMASSIZ \u274c\n\n\U0001f449 Sizga kerakli kinoni korish uchun kanalarga obuna bolishingiz kerak.\n\nQuyidagi kanalarga obuna boling\U0001f447 \nva tekshirish uchun OBUNA BO'LDIM tugmasini bosing!", "entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "bold", "offset": 145, "length": 13}], "reply_markup": {"inline_keyboard": [[{"text": "Bomba Kino", "url": "https://t.me/+VptcscjQEeZlYmEy"}], [{"text": "Tarjima TV", "url": "https://t.me/+4Rzze2DZvPA0ZjJi"}], [{"text": "Tarjima Kino Uz", "url": "https://t.me/+Fq3LowwkBihkNTc5"}], [{"text": "\u2705 OBUNA BOLDIM \u2705", "callback_data": "check_subscribe"}]]}}, "chat_instance": "-3675979002487098121", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-15 08:55:13,607]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207382904, "callback_query": {"id": "5898214279302052603", "from": {"id": 5668252323, "is_bot": false, "first_name": "26934", "language_code": "uz"}, "message": {"message_id": 10851846, "chat": {"id": 5668252323, "first_name": "26934", "type": "private"}, "date": 0}, "chat_instance": "4795560443147533184", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-15 16:17:08,928]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207383125, "callback_query": {"id": "5401523138176678593", "from": {"id": 5552607404, "is_bot": false, "first_name": "\U0001f451\u270aODDIY BOLA\u270a\U0001f451", "language_code": "uz"}, "message": {"message_id": 10846177, "chat": {"id": 5552607404, "first_name": "\U0001f451\u270aODDIY BOLA\u270a\U0001f451", "type": "private"}, "date": 0}, "chat_instance": "-7250413754489889502", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-15 20:25:55,545]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207383297, "callback_query": {"id": "3982092170516627671", "from": {"id": 927153083, "is_bot": false, "first_name": "\u041c\u0430\u0434\u0438\u0448\u2764\ufe0f", "username": "madmazel0000", "language_code": "ru"}, "message": {"message_id": 10849980, "chat": {"id": 927153083, "first_name": "\u041c\u0430\u0434\u0438\u0448\u2764\ufe0f", "username": "madmazel0000", "type": "private"}, "date": 0}, "chat_instance": "6399792188172673772", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-16 06:41:00,855]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207383492, "callback_query": {"id": "7908664562634154670", "from": {"id": 6136346756, "is_bot": false, "first_name": "\u5342\u049c\u5c3a\u5342\u722a\u4e43\u4e47\u049c;)", "username": "Akrambek_11", "language_code": "uz"}, "message": {"message_id": 10849779, "chat": {"id": 6136346756, "first_name": "\u5342\u049c\u5c3a\u5342\u722a\u4e43\u4e47\u049c;)", "username": "Akrambek_11", "type": "private"}, "date": 0}, "chat_instance": "-7097990565683357517", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:37] #ERROR    [2023-11-16 10:07:26,429]  Update: {"update_id": 207383691, "message": {"message_id": 10853093, "from": {"id": 5983962062, "is_bot": false, "first_name": "*****", "language_code": "ru"}, "chat": {"id": 5983962062, "first_name": "*****", "type": "private"}, "date": 1700118446, "text": "\u2077\u2074\u2074"}} 
+invalid input syntax for type integer: "\u2077\u2074\u2074"
+LINE 1: ...tle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2077\u2074\u2074')
+                                                                 ^
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "\u2077\u2074\u2074"
+LINE 1: ...tle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2077\u2074\u2074')
+                                                                 ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 128, in movie_code_handler
+    movie_info = await get_movie(code)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/database/connections.py", line 62, in get_movie
+    movie_info = [model_to_dict(item) for item in Movies.select().where(Movies.movie_code == code)]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 7150, in __iter__
+    self.execute()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 1972, in inner
+    return method(self, database, *args, **kwargs)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2043, in execute
+    return self._execute(database)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2216, in _execute
+    cursor = database.execute(self)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3260, in execute
+    return self.execute_sql(sql, params)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3250, in execute_sql
+    with __exception_wrapper__:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3020, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+peewee.DataError: invalid input syntax for type integer: "\u2077\u2074\u2074"
+LINE 1: ...tle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2077\u2074\u2074')
+                                                                 ^
+
+base_events.py [LINE:1744] #ERROR    [2023-11-16 10:07:26,432]  Task exception was never retrieved
+future: <Task finished name='Task-75447' coro=<Dispatcher._process_polling_updates() done, defined at /root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=DataError('invalid input syntax for type integer: "\u2077\u2074\u2074"\nLINE 1: ...tle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = \'\u2077\u2074\u2074\')\n                                                                 ^\n')>
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "\u2077\u2074\u2074"
+LINE 1: ...tle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2077\u2074\u2074')
+                                                                 ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 128, in movie_code_handler
+    movie_info = await get_movie(code)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/database/connections.py", line 62, in get_movie
+    movie_info = [model_to_dict(item) for item in Movies.select().where(Movies.movie_code == code)]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 7150, in __iter__
+    self.execute()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 1972, in inner
+    return method(self, database, *args, **kwargs)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2043, in execute
+    return self._execute(database)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 2216, in _execute
+    cursor = database.execute(self)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3260, in execute
+    return self.execute_sql(sql, params)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3250, in execute_sql
+    with __exception_wrapper__:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3020, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 192, in reraise
+    raise value.with_traceback(tb)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/peewee.py", line 3252, in execute_sql
+    cursor.execute(sql, params or ())
+peewee.DataError: invalid input syntax for type integer: "\u2077\u2074\u2074"
+LINE 1: ...tle" FROM "movies" AS "t1" WHERE ("t1"."movie_code" = '\u2077\u2074\u2074')
+                                                                 ^
+
+error_handler.py [LINE:33] #ERROR    [2023-11-16 16:57:32,241]  TelegramAPIError: Message to edit not found 
+Update: {"update_id": 207383917, "callback_query": {"id": "4676942618174761885", "from": {"id": 5383902856, "is_bot": false, "first_name": "Muxammadsolix", "language_code": "ru"}, "message": {"message_id": 10842315, "chat": {"id": 5383902856, "first_name": "Muxammadsolix", "type": "private"}, "date": 0}, "chat_instance": "-4940219404070388711", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 322, in check_subscribe_callback
+    await c.message.edit_text(f"Kino <b>KODINI</b> yuboring\u2705...")
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 2919, in edit_text
+    return await self.bot.edit_message_text(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3122, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToEditNotFound: Message to edit not found
+error_handler.py [LINE:33] #ERROR    [2023-11-17 09:58:25,658]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 207384350, "callback_query": {"id": "7550339523551501623", "from": {"id": 6052917707, "is_bot": false, "first_name": "Erkinboy", "last_name": "Abdullayev", "language_code": "ru"}, "message": {"message_id": 10849890, "chat": {"id": 6052917707, "first_name": "Erkinboy", "last_name": "Abdullayev", "type": "private"}, "date": 0}, "chat_instance": "-5337312356938849808", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Tarjimakinolar777bot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
