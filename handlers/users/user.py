@@ -154,6 +154,7 @@ async def check_channel_handler(message: Message, state: FSMContext):
     prefix = '-100'
     try:
         if len(text) == 3:
+            text = [item.strip() for item in text]
             channel_name, channel_id, channel_link = text
 
             if channel_id.isdigit() or channel_id.startswith('-100'):
