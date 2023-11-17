@@ -1,0 +1,35 @@
+executor.py [LINE:362] #INFO     [2023-11-05 13:13:51,211]  Bot: KinoZavqBot [@KinoZavqBot]
+executor.py [LINE:358] #WARNING  [2023-11-05 13:13:51,291]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-05 13:13:51,466]  Start polling.
+dispatcher.py [LINE:390] #ERROR    [2023-11-08 01:40:38,735]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+dispatcher.py [LINE:390] #ERROR    [2023-11-09 02:49:08,563]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+executor.py [LINE:362] #INFO     [2023-11-17 10:41:35,786]  Bot: KinoZavqBot [@KinoZavqBot]
+executor.py [LINE:358] #WARNING  [2023-11-17 10:41:35,867]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-17 10:41:35,919]  Start polling.
+executor.py [LINE:362] #INFO     [2023-11-17 10:42:05,980]  Bot: KinoZavqBot [@KinoZavqBot]
+executor.py [LINE:358] #WARNING  [2023-11-17 10:42:06,069]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-17 10:42:06,172]  Start polling.
