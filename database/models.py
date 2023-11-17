@@ -21,6 +21,7 @@ class Movies(BaseModel):
     movie_code = IntegerField()
     movie_title = CharField(max_length=500)
     movie_id = CharField(max_length=300, primary_key=True)
+    views = BigIntegerField(default=0)
 
     class Meta:
         db_table = 'movies'
@@ -41,3 +42,10 @@ class Admins(BaseModel):
 
     class Meta:
         db_table = 'admins'
+
+
+class UtilsModel(BaseModel):
+    default_channel_link = CharField(max_length=100)
+
+    class Meta:
+        db_table = 'utils_model'
