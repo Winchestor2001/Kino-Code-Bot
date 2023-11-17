@@ -1,0 +1,403 @@
+executor.py [LINE:362] #INFO     [2023-11-05 12:37:00,356]  Bot: KinoUzbZavqi [@Kinouzbzavqbot]
+executor.py [LINE:358] #WARNING  [2023-11-05 12:37:00,438]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-05 12:37:00,513]  Start polling.
+executor.py [LINE:362] #INFO     [2023-11-05 12:38:38,194]  Bot: KinoUzbZavqi [@Kinouzbzavqbot]
+executor.py [LINE:358] #WARNING  [2023-11-05 12:38:38,274]  Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-11-05 12:38:38,325]  Start polling.
+error_handler.py [LINE:33] #ERROR    [2023-11-06 05:41:48,600]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422583928, "message": {"message_id": 40204669, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699238504, "photo": [{"file_id": "AgACAgIAAxkBAmV5fWVIUmiwQB7k87oUWOAZ9gYRrNy4AAKdujEb78DRSqatq20xiWynAQADAgADcwADMwQ", "file_unique_id": "AQADnboxG-_A0Up4", "file_size": 1559, "width": 73, "height": 90}, {"file_id": "AgACAgIAAxkBAmV5fWVIUmiwQB7k87oUWOAZ9gYRrNy4AAKdujEb78DRSqatq20xiWynAQADAgADbQADMwQ", "file_unique_id": "AQADnboxG-_A0Upy", "file_size": 25765, "width": 261, "height": 320}, {"file_id": "AgACAgIAAxkBAmV5fWVIUmiwQB7k87oUWOAZ9gYRrNy4AAKdujEb78DRSqatq20xiWynAQADAgADeAADMwQ", "file_unique_id": "AQADnboxG-_A0Up9", "file_size": 117668, "width": 652, "height": 800}, {"file_id": "AgACAgIAAxkBAmV5fWVIUmiwQB7k87oUWOAZ9gYRrNy4AAKdujEb78DRSqatq20xiWynAQADAgADeQADMwQ", "file_unique_id": "AQADnboxG-_A0Up-", "file_size": 156228, "width": 1043, "height": 1280}], "caption": "Q7 \u0448\u043e\u043a\u043e\u043b\u0430\u0434 \U0001f36b\U0001f51e\n\n\U0001f36b \u0410\u0451\u043b\u043d\u0438\u043d\u0433 \u0445\u0430\u044f\u0436\u043e\u043d\u0438\u043d\u0438 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b \u0434\u0430\u0440\u0430\u0436\u0430\u0434\u0430 \u043e\u0448\u0438\u0440\u0430\u0434\u0438 \u0432\u0430 \u043e\u0440\u0433\u0430\u0437\u043c\u043d\u0438 \u0442\u0430\u044a\u043c\u0438\u043d\u043b\u0430\u0439\u0434\u0438y\n\U0001f36b 15 \u0434\u0430\u049b\u0438\u049b\u0430\u0434\u0430 \u0436\u0438\u043b\u043e\u0432\u043b\u0430\u0431 \u0431\u045e\u043b\u043c\u0430\u0439\u0434\u0438\u0433\u0430\u043d \u0438\u0441\u0442\u0430\u0433\u0438\u043d\u0438 \u0443\u0439\u0493\u043e\u0442\u0430\u0434\u0438\n\U0001f36b \u0425\u0438\u0441\u0441\u0438\u0451\u0442\u043b\u0430\u0440 \u0451\u0440\u049b\u0438\u043d\u043b\u0438\u0433\u0438 \u043e\u0448\u0438\u0440\u0430\u0434\u0438\n\U0001f36b \u0416\u0438\u043d\u0441\u0438\u0439 \u049b\u045e\u0437\u0493\u0430\u043b\u0438\u0448\u043d\u0438 \u043a\u0435\u043b\u0442\u0438\u0440\u0438\u0431 \u0447\u0438\u049b\u0430\u0440\u0430\u0434\u0438\n\U0001f36b \u0410\u0451\u043b \u0451\u043a\u0438 \u049b\u0438\u0437\u043b\u0430\u0440\u0433\u0430 \u049b\u0430\u0439\u043d\u043e\u049b \u043e\u0440\u0433\u0430\u0437\u043c \u0432\u0430 \u044d\u0445\u0442\u0438\u0440\u043e\u0441 \u0443\u0439\u0493\u043e\u0442\u0438\u0431 \u0431\u0435\u0440\u0430\u0434\u0438\n\n\u2705 2 \u0442\u0430 \u043a\u0443\u0441\u043e\u043a \u0435\u0441\u0430 \u0435\u0442\u0430\u0434\u0438 \u0442\u0430\u043c\u043e\u043c \u0431\u045e\u043b\u0430\u0434\u0438, 5 \u043c\u0438\u043d\u0443\u0442\u0434\u0430 \u0442\u0430\u0439\u0451\u0440 \u0431\u045e\u043b\u0430\u0434\u0438\U0001f51e\n\n\U0001f4b0 \u041d\u0430\u0440\u0445\u0438: 125 000 \u0441\u045e\u043c\n\n2 \u0442\u0430 \u043c\u0430\u0445\u0441\u0443\u043b\u043e\u0442 \u043e\u043b\u0441\u0430\u043d\u0433\u0438\u0437 1 \u0442\u0430 \u043c\u0430\u0445\u0441\u0443\u043b\u043e\u0442 \u049b\u0443\u0448\u0438\u0431 \u0431\u0435\u0440\u0438\u043b\u0430\u0434\u0438\n\n\u0415\u0422\u041a\u0410\u0417\u0418\u0428 \u0411\u0415\u041f\u0423\u041b!\u0422\u045e\u043b\u043e\u0432 \u049b\u045e\u043b\u0438\u043d\u0433\u0438\u0437\u0433\u0430 \u043e\u043b\u0433\u0430\u043d\u0434\u0430 \u049b\u0438\u043b\u0430\u0441\u0438\u0437\n\n\U0001f69aBuyurtma Berish\U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/9973\nhttps://alijahon.uz/oqim/9973\nhttps://alijahon.uz/oqim/9973", "caption_entities": [{"type": "bold", "offset": 0, "length": 15}, {"type": "italic", "offset": 17, "length": 256}, {"type": "bold", "offset": 275, "length": 61}, {"type": "bold", "offset": 338, "length": 21}, {"type": "bold", "offset": 414, "length": 14}, {"type": "url", "offset": 486, "length": 29}, {"type": "url", "offset": 516, "length": 29}, {"type": "url", "offset": 546, "length": 29}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 246, in send_ads_handler
+    await bot.send_photo(u, message.photo[-1].file_id, caption=text_caption,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 565, in send_photo
+    result = await self.request(api.Methods.SEND_PHOTO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-07 06:02:24,409]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422584222, "message": {"message_id": 40204828, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699326139, "video": {"duration": 19, "width": 480, "height": 480, "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQECZXocZUmouxCGTieKRMfdlu_4VDVAqroAAqkFAAJsZWlKu_h_K_kIC2gBAAdtAAMzBA", "file_unique_id": "AQADqQUAAmxlaUpy", "file_size": 22968, "width": 320, "height": 320}, "thumb": {"file_id": "AAMCAgADGQECZXocZUmouxCGTieKRMfdlu_4VDVAqroAAqkFAAJsZWlKu_h_K_kIC2gBAAdtAAMzBA", "file_unique_id": "AQADqQUAAmxlaUpy", "file_size": 22968, "width": 320, "height": 320}, "file_id": "BAACAgIAAxkBAmV6HGVJqLsQhk4nikTH3Zbv-FQ1QKq6AAKpBQACbGVpSrv4fyv5CAtoMwQ", "file_unique_id": "AgADqQUAAmxlaUo", "file_size": 1825373}, "caption": "Sizni hasharotlar va kemiruvchilar bezovta qilyaptimi? \U0001f577\U0001f99f\U0001f982\U0001f41c\n\n\u26d4\ufe0f Yo\u02bbqotishni istaysizu lekin, har qanday dorilar ta\u02bcsir qilmayaptimi? \n\nBiz sizlarga \"ATOMIC ZAPPER\" ni tavsiya etamiz!\n\n\u26a1\ufe0fEndi bizda 2 ta funsiya 1ta apparatda mujassam Ultra tovush+ Elektroshok \n\u261d\ufe0f100 kvadratgacha himoya\n\n\U0001f3ebXonadoningizni 24 soat davomida avtomatik ravishda kemiruvchilardan, hasharotlardan himoya qiladi.\n\n- Soxta buyumlardan ehtiyot bo\u02bbling!\n\n\U0001f4b8Narxi : 160000so\u2018m\n\n\n\U0001f69a O'zbekiston bo'ylab yetkazib berish bepul! To\u2018lovni mahsulot qo\u2018lingizga tekkanda qilasiz.\n\n\U0001f69aBuyurtma Berish \U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/16143\nhttps://alijahon.uz/oqim/16143", "caption_entities": [{"type": "url", "offset": 574, "length": 30}, {"type": "url", "offset": 605, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+dispatcher.py [LINE:390] #ERROR    [2023-11-08 01:40:00,022]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+error_handler.py [LINE:33] #ERROR    [2023-11-08 05:04:18,306]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422584459, "message": {"message_id": 40204982, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699409053, "photo": [{"file_id": "AgACAgIAAxkBAmV6tmVK7J02steJbUpYVmM5qO7U3O0OAAJUsTEb3zMxSrrU7bdLUGqiAQADAgADcwADMwQ", "file_unique_id": "AQADVLExG98zMUp4", "file_size": 2526, "width": 90, "height": 90}, {"file_id": "AgACAgIAAxkBAmV6tmVK7J02steJbUpYVmM5qO7U3O0OAAJUsTEb3zMxSrrU7bdLUGqiAQADAgADbQADMwQ", "file_unique_id": "AQADVLExG98zMUpy", "file_size": 29969, "width": 320, "height": 320}, {"file_id": "AgACAgIAAxkBAmV6tmVK7J02steJbUpYVmM5qO7U3O0OAAJUsTEb3zMxSrrU7bdLUGqiAQADAgADeAADMwQ", "file_unique_id": "AQADVLExG98zMUp9", "file_size": 112275, "width": 800, "height": 800}, {"file_id": "AgACAgIAAxkBAmV6tmVK7J02steJbUpYVmM5qO7U3O0OAAJUsTEb3zMxSrrU7bdLUGqiAQADAgADeQADMwQ", "file_unique_id": "AQADVLExG98zMUp-", "file_size": 172543, "width": 1080, "height": 1080}], "caption": "\U0001f48a\U0001f48a\U0001f48aSAMYUN WAN\U0001f48a\U0001f48a\U0001f48a\n\n\U0001f468\u200d\U0001f4bc \U0001f469\u200d\U0001f4bc Erkak va ayollar uchun! \n\u2705 ORIGINAL 100% Indoneziya. \n\U0001f3cb\ufe0f\u200d\u2640\ufe0f Shug'ullanish shart emas. \n\u279520 kun ichida 5-10 kg semirtiradi\n\U0001f48a1 ta flakonda 20 dona kapsula  \n\U0001f6b0Bir kunda 1 dona ovqatdan keyin ichiladi.  \n\u274cBu garmon emas!  \u261d\ufe0f\n\U0001f60bIshtaxani ochadi;\n\U0001f4aaMushaklar massa oladi;\n\u2022Metabolizmni yaxshilaydi;\n\u2022Energiyani oshiradi;  \n\u2022Qon aylanishini yaxshilaydi.\n\n\u2022Eski  narx:   \U0001f645\u200d\u2642\ufe0f289. 000 so'm.  \n\u2022Chegirma narxi: \u2714\ufe0f159. 000 so'm\n\nMahsulotni qo'lga olgach, to'lov qilasiz. Yetkazib berish bepul\n\n\U0001f69aBuyurtma Berish \U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/16146\nhttps://alijahon.uz/oqim/16146", "caption_entities": [{"type": "bold", "offset": 0, "length": 387}, {"type": "bold", "offset": 387, "length": 134}, {"type": "strikethrough", "offset": 387, "length": 36}, {"type": "url", "offset": 548, "length": 30}, {"type": "url", "offset": 579, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 246, in send_ads_handler
+    await bot.send_photo(u, message.photo[-1].file_id, caption=text_caption,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 565, in send_photo
+    result = await self.request(api.Methods.SEND_PHOTO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+dispatcher.py [LINE:390] #ERROR    [2023-11-09 02:48:24,935]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 5 seconds.
+dispatcher.py [LINE:390] #ERROR    [2023-11-09 02:48:30,588]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+error_handler.py [LINE:33] #ERROR    [2023-11-09 04:55:17,049]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422584767, "message": {"message_id": 40205155, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699494912, "photo": [{"file_id": "AgACAgIAAxkBAmV7Y2VMPAABG631nvERjUN6Mdfl37-nLgACI7ExG5zkiUqSMhoFp_sfRAEAAwIAA3MAAzME", "file_unique_id": "AQADI7ExG5zkiUp4", "file_size": 2379, "width": 90, "height": 90}, {"file_id": "AgACAgIAAxkBAmV7Y2VMPAABG631nvERjUN6Mdfl37-nLgACI7ExG5zkiUqSMhoFp_sfRAEAAwIAA20AAzME", "file_unique_id": "AQADI7ExG5zkiUpy", "file_size": 35633, "width": 320, "height": 320}, {"file_id": "AgACAgIAAxkBAmV7Y2VMPAABG631nvERjUN6Mdfl37-nLgACI7ExG5zkiUqSMhoFp_sfRAEAAwIAA3gAAzME", "file_unique_id": "AQADI7ExG5zkiUp9", "file_size": 146436, "width": 800, "height": 800}, {"file_id": "AgACAgIAAxkBAmV7Y2VMPAABG631nvERjUN6Mdfl37-nLgACI7ExG5zkiUqSMhoFp_sfRAEAAwIAA3kAAzME", "file_unique_id": "AQADI7ExG5zkiUp-", "file_size": 237783, "width": 1280, "height": 1280}], "caption": "\U0001fab1 \u041c\u0438\u0441\u0440 \u0434\u0430\u0432\u043b\u0430\u0442\u0438\u0434\u0430 \u0438\u0448\u043b\u0430\u0431 \u0447\u0438\u043a\u0430\u0440\u0438\u043b\u0433\u0430\u043d \u0442\u0430\u0431\u0438\u0438\u0439 BENDAX \u043c\u0430\u0445\u0441\u0443\u043b\u043e\u0442\u0438 - \u044d\u043d\u0433 \u0437\u0430\u0440\u0430\u0440\u0441\u0438\u0437 \u0432\u0430 \u044d\u043d\u0433 \u0445\u0430\u0432\u0444\u0441\u0438\u0437 \u0431\u0438\u0440\u0438\u043d\u0447\u0438 \u0440\u0430\u049b\u0430\u043c\u043b\u0438 \u041f\u0430\u0440\u0430\u0437\u0438\u0442 (\u0413\u0438\u0436\u0436\u0430) \u0442\u0443\u0448\u0438\u0440\u0443\u0432\u0447\u0438 \u0434\u0435\u0431 \u0442\u0430\u043d \u043e\u043b\u0438\u043d\u0433\u0430\u043d!!!\n\n- 300 \u0445\u0438\u043b\u0434\u0430\u043d \u043e\u0440\u0442\u0438\u049b \u0433\u0438\u0436\u0436\u0430 \u0442\u0443\u0440\u043b\u0430\u0440\u0438\u043d\u0438 \u0442\u0443\u0445\u0438\u043c\u0438\u0433\u0430\u0447\u0430, \u0445\u0430\u0442\u0442\u043e \u043e\u0448\u049b\u043e\u0437\u043e\u043d \u0438\u0447\u0430\u043a\u043b\u0430\u0440\u0438\u0434\u0430\u0433\u0438 \u0433\u0438\u0436\u0436\u0430\u043b\u0430\u0440\u043d\u0438 \u0445\u0430\u043c \u0442\u0443\u0448\u0438\u0440\u0430\u0434\u0438\n- \u041e\u0440\u0433\u0430\u043d\u0438\u0437\u043c\u0433\u0430 \u0437\u0430\u0440\u0430\u0440 \u0435\u0442\u043a\u0430\u0437\u043c\u0430\u0439\u0434\u0438\n- \u0416\u0438\u0433\u0430\u0440 \u0444\u0430\u043e\u043b\u0438\u044f\u0442\u0438\u0433\u0430 \u0437\u0430\u0440\u0430\u0437 \u0435\u0442\u043a\u0430\u0437\u043c\u0430\u0441\u0434\u0430\u043d, \u0443\u043d\u0434\u0430 \u044f\u0448\u043e\u0432\u0447\u0438 \u0445\u0430\u0432\u0444\u043b\u0438 \u044d\u0445\u043d\u0430\u043a\u043e\u043a \u0433\u0438\u0436\u0436\u0430\u043b\u0430\u0440\u043d\u0438 \u0445\u0430\u043c \u0442\u043e\u0437\u0430\u043b\u0430\u0439\u0434\u0438 \u0432\u0430 \u0448\u0443 \u0431\u0438\u043b\u0430\u043d \u0431\u0438\u0440\u0433\u0430 \u0436\u0438\u0433\u0430\u0440\n\n\U0001f48a \u041a\u045e\u043b\u043b\u0430\u043d\u0438\u043b\u0438\u0448\u0438:\n3 \u043a\u0443\u043d \u043a\u0443\u043d\u0438\u0433\u0430 1 \u0434\u043e\u043d\u0430\u0434\u0430\u043d 2 \u043c\u0430\u0445\u0430\u043b \u043e\u0432\u049b\u0430\u0442 \u0431\u0438\u043b\u0430\u043d \u0431\u0438\u0440\u0433\u0430 \u0438\u0441\u0442\u0435\u044a\u043c\u043e\u043b \u043a\u0438\u043b\u0438\u043d\u0430\u0434\u0438\n\n\u041f\u0440\u0435\u043f\u0430\u0440\u0430\u0442 \u049b\u0430\u0434\u043e\u0493\u0438\u0434\u0430 6 \u0442\u0430\u0431\u043b\u0435\u0442\u043a\u0430 \u0431\u045e\u043b\u0430\u0434\u0438\n\u041a\u0443\u0440\u0441 \u043b\u0435\u0447\u0435\u043d\u0438\u044f \u0443\u0447\u0443\u043d 12 \u0442\u0430 \u0442\u0430\u0431\u043b\u0435\u0442\u043a\u0430 \u043a\u0435\u0440\u0430\u043a \u0431\u045e\u043b\u0430\u0434\u0438.\n\n\U0001f381 \u04b2\u043e\u0437\u0438\u0440\u0434\u0430 1+1=3 \u0430\u043a\u0446\u0438\u044f\u0441\u0438 \u043a\u0435\u0442\u043c\u043e\u049b\u0434\u0430, \u044f\u044a\u043d\u0438 2 \u0442\u0430 \u0441\u043e\u0442\u0438\u0431 \u043e\u043b\u0441\u0430\u043d\u0433\u0438\u0437 1 \u0442\u0430 \u0431\u043e\u043d\u0443\u0441\n\u0428\u043e\u0448\u0438\u043b\u0438\u043d\u0433, \u043c\u0430\u04b3\u0441\u0443\u043b\u043e\u0442\u043b\u0430\u0440 \u0441\u043e\u043d\u0438 \u0447\u0435\u043a\u043b\u0430\u043d\u0433\u0430\u043d\n\n\U0001f69b \u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d \u0431\u045e\u0439\u043b\u0430\u0431 \u0431\u0435\u043f\u0443\u043b \u0435\u0442\u043a\u0430\u0437\u0438\u0431 \u0431\u0435\u0440\u0438\u043b\u0430\u0434\u0438 \n\n\U0001f69aBuyurtma Berish \U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/16147\nhttps://alijahon.uz/oqim/16147", "caption_entities": [{"type": "bold", "offset": 3, "length": 146}, {"type": "italic", "offset": 151, "length": 241}, {"type": "bold", "offset": 397, "length": 12}, {"type": "bold", "offset": 573, "length": 22}, {"type": "bold", "offset": 674, "length": 42}, {"type": "url", "offset": 742, "length": 30}, {"type": "url", "offset": 773, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 246, in send_ads_handler
+    await bot.send_photo(u, message.photo[-1].file_id, caption=text_caption,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 565, in send_photo
+    result = await self.request(api.Methods.SEND_PHOTO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-10 05:19:08,541]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422585023, "message": {"message_id": 40205305, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699582744, "video": {"duration": 34, "width": 848, "height": 484, "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQECZXv5ZU2TGAEDFy1azXw7vLDg_LIgBkQAAqMUAAKbg4BLvmE7iEI78skBAAdtAAMzBA", "file_unique_id": "AQADoxQAApuDgEty", "file_size": 12038, "width": 320, "height": 183}, "thumb": {"file_id": "AAMCAgADGQECZXv5ZU2TGAEDFy1azXw7vLDg_LIgBkQAAqMUAAKbg4BLvmE7iEI78skBAAdtAAMzBA", "file_unique_id": "AQADoxQAApuDgEty", "file_size": 12038, "width": 320, "height": 183}, "file_id": "BAACAgIAAxkBAmV7-WVNkxgBAxctWs18O7yw4PyyIAZEAAKjFAACm4OAS75hO4hCO_LJMwQ", "file_unique_id": "AgADoxQAApuDgEs", "file_size": 2987779}, "caption": "\u26a1\ufe0f \u0416\u0438\u043d\u0441\u0438\u0439 \u0430\u043b\u043e\u049b\u0430 \u0432\u0430\u049b\u0442\u0438\u043d\u0438 \u0443\u0437\u0430\u0439\u0442\u0438\u0440\u0438\u0448 \u0443\u0447\u0443\u043d \u0435\u043d\u0433 \u044f\u0445\u0448\u0438 \u0432\u043e\u0441\u0438\u0442\u0430 - SOFT men spray\n\n\u26a1\ufe0f \u0423\u0448\u0430 \u043c\u0430\u0448\u04b3\u0443\u0440 \u0414\u043e\u043a\u0442\u043e\u0440 \u0414 \u0442\u0430\u0432\u0441\u0438\u044f \u049b\u0438\u043b\u0433\u0430\u043d \u2013 \u042d\u0440\u043a\u0430\u043a\u043b\u0430\u0440 \u0443\u0447\u0443\u043d \u0441\u043f\u0440\u0435\u0439-\u043f\u0440\u043e\u043b\u043e\u043d\u0433\u0430\u0442\u043e\u0440.\n\n\u25aa\ufe0f \u0410\u043b\u043e\u049b\u0430 \u0434\u0430\u0432\u043e\u043c\u0438\u0439\u043b\u0438\u0433\u0438\u043d\u0438 \u043e\u0448\u0438\u0440\u0430\u0434\u0438.\n\u25aa\ufe0f \u041e\u0440\u0433\u0430\u0437\u043c\u043d\u0438 \u0443\u0437\u0430\u0439\u0442\u0438\u0440\u0430\u0434\u0438 \u0432\u0430 \u0431\u0438\u0440\u0433\u0430 \u0437\u0430\u0432\u049b \u043e\u043b\u0438\u0448\u0433\u0430 \u0451\u0440\u0434\u0430\u043c \u0431\u0435\u0440\u0430\u0434\u0438.\n\u25aa\ufe0f \u0423\u0440\u0443\u0493 \u044d\u0440\u0442\u0430 \u0447\u0438\u049b\u0438\u0431 \u043a\u0435\u0442\u0438\u0448\u0438\u043d\u0438 \u043e\u043b\u0434\u0438\u043d\u0438 \u043e\u043b\u0430\u0434\u0438.\n\u25aa\ufe0f \u04b2\u0430\u0440\u0430\u043a\u0430\u0442 \u0434\u0430\u0432\u043e\u043c\u0438\u0439\u043b\u0438\u0433\u0438 30-45 \u0434\u0430\u049b\u0438\u049b\u0430\u0433\u0430\u0447\u0430 \u0435\u0442\u0430\u0434\u0438.\n\u25aa\ufe0f 100% \u0445\u0430\u0432\u0444\u0441\u0438\u0437.\n\u25aa\ufe0f \u041e\u0434\u0430\u0442\u043b\u0430\u043d\u0438\u0431 \u049b\u043e\u043b\u0438\u0448 \u0442\u0430\u044a\u0441\u0438\u0440\u0438\u0433\u0430 \u044d\u0433\u0430 \u044d\u043c\u0430\u0441.\n\u25aa\ufe0f \u0418\u0441\u0442\u0430\u043a\u043d\u0438 \u043a\u0443\u0447\u0430\u0439\u0442\u0438\u0440\u0430\u0434\u0438.\n\u25aa\ufe0f \u040e\u0437\u0438\u0433\u0430 \u0431\u045e\u043b\u0433\u0430\u043d \u0438\u0448\u043e\u043d\u0447\u043d\u0438 \u0431\u0430\u0445\u0448 \u044d\u0442\u0430\u0434\u0438!\n\n\U0001f4b5 \u041d\u0430\u0440\u0445\u0438: 189 000 \u0441\u045e\u043c\n\n\U0001f68c \u0415\u0422\u041a\u0410\u0417\u0418\u0428 \u0411\u0415\u0420\u0418\u0428 \u0411\u0415\u041f\u0423\u041b!\n\u2705 \u0422\u045e\u043b\u043e\u0432 \u049b\u045e\u043b\u0438\u043d\u0433\u0438\u0437\u0433\u0430 \u043e\u043b\u0433\u0430\u043d\u0434\u0430 \u049b\u0438\u043b\u0430\u0441\u0438\u0437!\n\n\U0001f69a\u0411\u0443\u044e\u0440\u0442\u043c\u0430 \u0411\u0435\u0440\u0438\u0448\U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/5245\nhttps://alijahon.uz/oqim/5245\nhttps://alijahon.uz/oqim/5245", "caption_entities": [{"type": "url", "offset": 548, "length": 29}, {"type": "url", "offset": 578, "length": 29}, {"type": "url", "offset": 608, "length": 29}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-11 06:43:50,097]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422585385, "message": {"message_id": 40205537, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699674225, "video": {"duration": 105, "width": 480, "height": 480, "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQECZXzhZU74cfHO1716swmCmdIxgMb1S38AAkIrAAKTplFLPueMAAGePuF7AQAHbQADMwQ", "file_unique_id": "AQADQisAApOmUUty", "file_size": 19292, "width": 320, "height": 320}, "thumb": {"file_id": "AAMCAgADGQECZXzhZU74cfHO1716swmCmdIxgMb1S38AAkIrAAKTplFLPueMAAGePuF7AQAHbQADMwQ", "file_unique_id": "AQADQisAApOmUUty", "file_size": 19292, "width": 320, "height": 320}, "file_id": "BAACAgIAAxkBAmV84WVO-HHxzte9erMJgpnSMYDG9Ut_AAJCKwACk6ZRSz7njAABnj7hezME", "file_unique_id": "AgADQisAApOmUUs", "file_size": 9729930}, "caption": "\u2757\ufe0f\u0421\u0435\u043c\u0438\u0437 \u043e\u0434\u0430\u043c\u043d\u0438\u043d\u0433 \u0438\u0447\u043a\u0438 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043c\u0438\u0433\u0430 \u0441\u0430\u0451\u0445\u0430\u0442\n\n\u2714\ufe0f \u0417\u0430\u0440\u0430\u0440\u0441\u0438\u0437 \u043e\u0437\u043c\u043e\u049b\u0447\u0438\u043c\u0438\u0441\u0438\u0437? «AMPLI 5» \u043a\u045e\u043f \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043b\u0438\u043a \u0431\u0440\u0430\u0441\u043b\u0435\u0442 - \u043e\u0437\u0438\u0448 \u0443\u0447\u0443\u043d, \u049b\u043e\u0440\u0438\u043d, \u0431\u045e\u043a\u0441\u0430, \u049b\u045e\u043b, \u043e\u0451\u049b\u0434\u0430\u0433\u0438 \u0451\u0493\u043b\u0430\u0440\u043d\u0438 \u044d\u0440\u0438\u0442\u0438\u0448\u0433\u0430 \u0451\u0440\u0434\u0430\u043c \u0431\u0435\u0440\u0430\u0434\u0438.\n\n\u2618\ufe0f \u041e\u0440\u0433\u0430\u043d\u0438\u0437\u043c\u043d\u0438\u043d\u0433 \u0443\u043c\u0443\u043c\u0438\u0439 \u0430\u04b3\u0432\u043e\u043b\u0438\u043d\u0438 \u044f\u0445\u0448\u0438\u043b\u0430\u0448 \u0432\u0430 \u0438\u0448\u0447\u0430\u043d\u043b\u0438\u0433\u0438\u043d\u0438 \u043e\u0448\u0438\u0440\u0438\u0448\u0434\u0430 \u0451\u0440\u0434\u0430\u043c \u0431\u0435\u0440\u0430\u0434\u0438.\n\u2618\ufe0f \u0418\u043c\u043c\u0443\u043d\u0438\u0442\u0435\u0442\u043d\u0438 \u043e\u0448\u0438\u0440\u0438\u0431, \u0436\u0438\u0441\u043c\u043e\u043d\u0438\u0439 \u0432\u0430 \u0430\u049b\u043b\u0438\u0439 \u049b\u043e\u0431\u0438\u043b\u0438\u044f\u0442\u043d\u0438 \u044f\u0445\u0448\u0438\u043b\u0430\u0448,\n\u2618\ufe0f \u0427\u0430\u0440\u0447\u043e\u049b \u0432\u0430 \u04b3\u043e\u043b\u0441\u0438\u0437\u043b\u0438\u043a\u043d\u0438 \u043a\u0430\u043c\u0430\u0439\u0442\u0438\u0440\u0438\u0448,\n\u2618\ufe0f \u0411\u045e\u0493\u0438\u043c \u0432\u0430 \u0431\u043e\u0448 \u043e\u0493\u0440\u0438\u049b\u043b\u0430\u0440\u0438\u043d\u0438 \u049b\u043e\u043b\u0434\u0438\u0440\u0438\u0448,\n\u2618\ufe0f \u0411\u0443\u049b\u043e\u049b \u043a\u0430\u0441\u0430\u043b\u043b\u0438\u043a\u043b\u0430\u0440\u0438\u0434\u0430 \u0451\u0440\u0434\u0430\u043c \u0431\u0435\u0440\u0430\u0434\u0438.\n\n\U0001f381 \u0424\u0430\u043a\u0430\u0442 1 \u043a\u0443\u043d \u0430\u043a\u0441\u0438\u044f \u0448\u043e\u0448\u0438\u043b\u0438\u043d\u0433 \n\n\u274c \u042d\u0441\u043a\u0438 \u043d\u0430\u0440\u0445\u0438: 399 000 \u0441\u045e\u043c.\n\u2705 \u0410\u043a\u0446\u0438\u044f \u043d\u0430\u0440\u0445\u0438: 99 000 \u0441\u045e\u043c.\n               \n\u0421\u043e\u0442\u0438\u0431 \u043e\u043b\u0438\u0448 \u0443\u0447\u0443\u043d:\u2935\ufe0f\n\n\u2022 \u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d \u0431\u045e\u0439\u043b\u0430\u0431 \u0435\u0442\u043a\u0430\u0437\u0438\u0431 \u0431\u0435\u0440\u0438\u0448 \u0411\u0435\u043f\u0443\u043b. \u0421\u0430\u0439\u0442\u0433\u0430 \u043a\u0438\u0440\u0438\u0431 \u0431\u0443\u044e\u0440\u0442\u043c\u0430 \u0431\u0435\u0440\u0438\u043d\u0433. 10 \u0434\u0430\u049b\u0438\u049b\u0430 \u0438\u0447\u0438\u0434\u0430 \u043e\u043f\u0435\u0440\u0430\u0442\u043e\u0440\u043b\u0430\u0440\u0438\u043c\u0438\u0437 \u0431\u043e\u0493\u043b\u0430\u043d\u0430\u0434\u0438.\n\n\u0411\u0443\u044e\u0440\u0442\u043c\u0430 \u0431\u0435\u0440\u0438\u0448\U0001f447\nhttps://alijahon.uz/oqim/30764\nhttps://alijahon.uz/oqim/30764\nhttps://alijahon.uz/oqim/30764", "caption_entities": [{"type": "bold", "offset": 0, "length": 458}, {"type": "bold", "offset": 458, "length": 124}, {"type": "strikethrough", "offset": 458, "length": 26}, {"type": "url", "offset": 678, "length": 30}, {"type": "url", "offset": 709, "length": 30}, {"type": "url", "offset": 740, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-12 05:59:51,265]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422585608, "message": {"message_id": 40205609, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699757986, "video": {"duration": 30, "width": 1080, "height": 1920, "file_name": "compress1015919418.mp4", "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQECZX0pZVA_okJGPze11Y5v4gJnpe7Au0AAAmk5AAK50glIGlMhZtTsAmMBAAdtAAMzBA", "file_unique_id": "AQADaTkAArnSCUhy", "file_size": 12611, "width": 180, "height": 320}, "thumb": {"file_id": "AAMCAgADGQECZX0pZVA_okJGPze11Y5v4gJnpe7Au0AAAmk5AAK50glIGlMhZtTsAmMBAAdtAAMzBA", "file_unique_id": "AQADaTkAArnSCUhy", "file_size": 12611, "width": 180, "height": 320}, "file_id": "BAACAgIAAxkBAmV9KWVQP6JCRj83tdWOb-ICZ6XuwLtAAAJpOQACudIJSBpTIWbU7AJjMwQ", "file_unique_id": "AgADaTkAArnSCUg", "file_size": 4495736}, "caption": "\u26a1\ufe0fELEKTRON TOZALAGICH\n \nBarcha uchun judayam kerakli va foydali bo\u2018lgan oyoq, tovon tozalovchi maxsus elektron moslamamiz keldi batafsil videoni ko\u2018ring \n \n\u2757\ufe0fTo\u2018lov mahsulotni qo\u2018lingizga olganda qilasiz \n \n\U0001f4b0 Mahsulot narxi: 139.000\n\n\u2705 To'lovni mahsulotni qo'lingizga olganda qilasiz\n\n\U0001f69a O\u2018zbekiston bo\u2018ylab yetkazib berish xizmati bepul\n\n\U0001f69a Buyurtma Berish \U0001f447\U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/31218\nhttps://alijahon.uz/oqim/31218\nhttps://alijahon.uz/oqim/31218", "caption_entities": [{"type": "url", "offset": 368, "length": 30}, {"type": "url", "offset": 399, "length": 30}, {"type": "url", "offset": 430, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+dispatcher.py [LINE:390] #ERROR    [2023-11-12 19:22:20,267]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client.py", line 1167, in __aenter__
+    self._resp = await self._coro
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client.py", line 586, in _request
+    await resp.start(conn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 905, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerDisconnectedError: Server disconnected
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ServerDisconnectedError: Server disconnected
+error_handler.py [LINE:33] #ERROR    [2023-11-13 06:23:46,969]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 422586075, "callback_query": {"id": "2836936005411130737", "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "message": {"message_id": 40205611, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 0}, "chat_instance": "5705867566288599731", "data": "rek"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 363, in rek_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-13 06:25:00,029]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422586079, "message": {"message_id": 40205865, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699845897, "video": {"duration": 75, "width": 360, "height": 360, "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQECZX4pZVGXCX8BHTZR9O9--EUgSVv5KC8AApALAALSGRhKf77j1iVbZNMBAAdtAAMzBA", "file_unique_id": "AQADkAsAAtIZGEpy", "file_size": 13712, "width": 320, "height": 320}, "thumb": {"file_id": "AAMCAgADGQECZX4pZVGXCX8BHTZR9O9--EUgSVv5KC8AApALAALSGRhKf77j1iVbZNMBAAdtAAMzBA", "file_unique_id": "AQADkAsAAtIZGEpy", "file_size": 13712, "width": 320, "height": 320}, "file_id": "BAACAgIAAxkBAmV-KWVRlwl_AR02UfTvfvhFIElb-SgvAAKQCwAC0hkYSn--49YlW2TTMwQ", "file_unique_id": "AgADkAsAAtIZGEo", "file_size": 3193012}, "caption": "Telefoningizda Kino yoki Futbol tomosha qilishni yoqtirasizmi?\n\nLekin smartfoningiz ekrani bunga kichiklik qilyaptimi?\n\nUnda sizga \u201c3D EKRAN\u201d ni tavsiya qilamiz!\n\nBu qurilma orqali siz smartfoningiz ekranidagi tasvirni kattalashtirib, 3D xolatda ko\u02bbrish imkoniyatiga ega bo\u02bblasiz.\n\n\U0001f69a O\u02bbzbekiston bo\u02bbylab yetkazib berish bepul! To\u02bblovni mahsulot qo\u02bblingizga yetib borganda qilasiz\n\nNarxi:\U0001f4b097-MING SO\u02bbM\n\n\U0001f69a Buyurtma Berish \U0001f447\U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/31554\nhttps://alijahon.uz/oqim/31554\nhttps://alijahon.uz/oqim/31554", "caption_entities": [{"type": "url", "offset": 432, "length": 30}, {"type": "url", "offset": 463, "length": 30}, {"type": "url", "offset": 494, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-14 06:31:00,728]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422586313, "message": {"message_id": 40205980, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1699932655, "video": {"duration": 59, "width": 540, "height": 960, "file_name": "5f174cf2171d4ef1b4dce2dd181978be.mp4", "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQECZX6cZVLp79JuSLZ1f-WvtCnvIo49xIEAAvYWAAJT1uFKOcxYix_V0XgBAAdtAAMzBA", "file_unique_id": "AQAD9hYAAlPW4Upy", "file_size": 16435, "width": 180, "height": 320}, "thumb": {"file_id": "AAMCAgADGQECZX6cZVLp79JuSLZ1f-WvtCnvIo49xIEAAvYWAAJT1uFKOcxYix_V0XgBAAdtAAMzBA", "file_unique_id": "AQAD9hYAAlPW4Upy", "file_size": 16435, "width": 180, "height": 320}, "file_id": "BAACAgIAAxkBAmV-nGVS6e_Sbki2dX_lr7Qp7yKOPcSBAAL2FgACU9bhSjnMWIsf1dF4MwQ", "file_unique_id": "AgAD9hYAAlPW4Uo", "file_size": 8911831}, "caption": "\u2705 KOMPYUTOR NURIDAN XIMOYALOVCHI ACHKI \n\n\U0001f4cc KOMPYUTOR \n \U0001f4cc TELIFON\n\n\U0001f453   Nuridan 100 foiz himoya qiluvchi achki \n\n\U0001f631 Yuqori sifatli plastigdan ishlab chiqorilgan \n\n\U0001f449 NARXI:  99.000 SO'M\n\n\U0001f69a O'zbekiston buylab yetkazib berish BEPUL \U0001f633\U0001f633\n\n\U0001f69a Buyurtma Berish \U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/33315\nhttps://alijahon.uz/oqim/33315\nhttps://alijahon.uz/oqim/33315", "caption_entities": [{"type": "url", "offset": 264, "length": 30}, {"type": "url", "offset": 295, "length": 30}, {"type": "url", "offset": 326, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-14 13:39:53,413]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 422586391, "callback_query": {"id": "411669116690470005", "from": {"id": 6538300129, "is_bot": false, "first_name": "Iskandar. Elyor", "language_code": "uz"}, "message": {"message_id": 40205770, "chat": {"id": 6538300129, "first_name": "Iskandar. Elyor", "type": "private"}, "date": 0}, "chat_instance": "7772464990403679151", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-14 13:39:55,612]  TelegramAPIError: Message to delete not found 
+Update: {"update_id": 422586392, "callback_query": {"id": "411669115881144141", "from": {"id": 6538300129, "is_bot": false, "first_name": "Iskandar. Elyor", "language_code": "uz"}, "message": {"message_id": 40205770, "chat": {"id": 6538300129, "first_name": "Iskandar. Elyor", "type": "private"}, "date": 0}, "chat_instance": "7772464990403679151", "data": "check_subscribe"}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 324, in check_subscribe_callback
+    await c.message.delete()
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/types/message.py", line 3096, in delete
+    return await self.bot.delete_message(self.chat.id, self.message_id)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 3300, in delete_message
+    return await self.request(api.Methods.DELETE_MESSAGE, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageToDeleteNotFound: Message to delete not found
+error_handler.py [LINE:33] #ERROR    [2023-11-15 05:23:59,834]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422586548, "message": {"message_id": 40206202, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1700015035, "photo": [{"file_id": "AgACAgIAAxkBAmV_emVUK7tA5PCINVDOuIfsSSm01lKYAALO0TEb-VD4SSA_8Uo_rPXGAQADAgADcwADMwQ", "file_unique_id": "AQADztExG_lQ-El4", "file_size": 1759, "width": 90, "height": 90}, {"file_id": "AgACAgIAAxkBAmV_emVUK7tA5PCINVDOuIfsSSm01lKYAALO0TEb-VD4SSA_8Uo_rPXGAQADAgADbQADMwQ", "file_unique_id": "AQADztExG_lQ-Ely", "file_size": 23274, "width": 320, "height": 320}, {"file_id": "AgACAgIAAxkBAmV_emVUK7tA5PCINVDOuIfsSSm01lKYAALO0TEb-VD4SSA_8Uo_rPXGAQADAgADeAADMwQ", "file_unique_id": "AQADztExG_lQ-El9", "file_size": 112675, "width": 800, "height": 800}, {"file_id": "AgACAgIAAxkBAmV_emVUK7tA5PCINVDOuIfsSSm01lKYAALO0TEb-VD4SSA_8Uo_rPXGAQADAgADeQADMwQ", "file_unique_id": "AQADztExG_lQ-El-", "file_size": 166124, "width": 1280, "height": 1280}], "caption": "Kirka atir\n\n \u269cKo'pgina erkaklarimiz talablari asosida \n\" KIRKA \" bu atirni bilmagan odam bo'lmasa kerak !\n\nTarkibi \U0001f447\n\n\u2705Qizlar ko'zida xammadan ajralib turasiz bu Atir notalari bilan\n\u2705Malina, marakuya, nok, vanilin VA shaftolini  xidini sezishingiz mumkun  \n\u2705 Asosiy notaladan sandal va muskus dan iborat \n\u2705Yoqimliy shirin xidi ancha joyga taralib turadi \n\u2705 Atir xidi  1 kundan 3 kungacha turadi\n\u2705Kuz va qish fasilada tushadigan  atir\n\n\U0001f389 Soni cheklangan shoshilib qolamiza \U0001f60a \n\n\n narxi: 69.000\n\n \u2705 To'lovni mahsulotni qo'lingizga olganda qilasiz\n\n \U0001f69a O\u2018zbekiston bo\u2018ylab yetkazib berish xizmati mavjud\n\n\U0001f69aBuyurtma Berish\U0001f447\U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/37093\nhttps://alijahon.uz/oqim/37093\nhttps://alijahon.uz/oqim/37093", "caption_entities": [{"type": "bold", "offset": 0, "length": 10}, {"type": "bold", "offset": 499, "length": 47}, {"type": "bold", "offset": 549, "length": 53}, {"type": "url", "offset": 630, "length": 30}, {"type": "url", "offset": 661, "length": 30}, {"type": "url", "offset": 692, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 246, in send_ads_handler
+    await bot.send_photo(u, message.photo[-1].file_id, caption=text_caption,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 565, in send_photo
+    result = await self.request(api.Methods.SEND_PHOTO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+error_handler.py [LINE:33] #ERROR    [2023-11-16 05:42:18,037]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422586821, "message": {"message_id": 40206431, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1700102533, "video": {"duration": 16, "width": 720, "height": 928, "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQECZYBfZVWBhSGHFcDW6uKvfDu8G3JI9UgAAj41AAJKi2FKc9r5X_GSPXoBAAdtAAMzBA", "file_unique_id": "AQADPjUAAkqLYUpy", "file_size": 12287, "width": 248, "height": 320}, "thumb": {"file_id": "AAMCAgADGQECZYBfZVWBhSGHFcDW6uKvfDu8G3JI9UgAAj41AAJKi2FKc9r5X_GSPXoBAAdtAAMzBA", "file_unique_id": "AQADPjUAAkqLYUpy", "file_size": 12287, "width": 248, "height": 320}, "file_id": "BAACAgIAAxkBAmWAX2VVgYUhhxXA1urir3w7vBtySPVIAAI-NQACSothSnPa-V_xkj16MwQ", "file_unique_id": "AgADPjUAAkqLYUo", "file_size": 10104388}, "caption": "Slim body ozdiruvchi ayollar uchun\n\n PREMIUM SIFATLI MATERIAL SLIM BODY:O'ramimiz havo o'tkazadigan va elastik poliester va lateksdan tayyorlangan. Ajoyib moslashuvchanlik qorinni qattiq tekislashi va orqa o'rindiqlarni tekislashi mumkin.10 000 MARTA TEST: Bizning qorin bo'shlig'imiz 10 000 ta sinovdan o'tdi va elastikligi, mustahkamligi va bardoshliligi bo'yicha barqaror. \nKO'P qirrali: tana shakllantiruvchi qorin bo'shlig'ini tekislash va qum soati shaklini yaratishga yordam beradi.  \nBelni qisqartiradi, orqangizni qo'llab-quvvatlaydi, holatni yaxshilaydi, tug'ruqdan keyingi tiklanish. U sport zallarida, ofislarda va yoga studiyalarida ishlatilishi mumkin.U bizning kiyimimizda yaxshi yashiringan va bo'ladi. e'tiborga olinm... \n\n \U0001f4b0 Mahsulot narxi: 139.000 so'm\n-- Orta (L, XL):  \n-- Katta (2XL, 3XL):  \n-- Kichik (S, M):  \n \u2705 To'lovni mahsulotni qo'lingizga olganda qilasiz\n\n \U0001f69a O\u2018zbekiston bo\u2018ylab yetkazib berish xizmati mavjud\n\n\U0001f69a Buyurtma Berish \U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/38681\nhttps://alijahon.uz/oqim/38681", "caption_entities": [{"type": "url", "offset": 969, "length": 30}, {"type": "url", "offset": 1000, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
+dispatcher.py [LINE:390] #ERROR    [2023-11-17 04:10:13,479]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 111, in check_result
+    raise exceptions.RetryAfter(parameters.retry_after)
+aiogram.utils.exceptions.RetryAfter: Flood control exceeded. Retry in 5 seconds.
+dispatcher.py [LINE:390] #ERROR    [2023-11-17 04:10:19,159]  Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 128, in check_result
+    raise exceptions.TelegramAPIError(description)
+aiogram.utils.exceptions.TelegramAPIError: Bad Gateway
+error_handler.py [LINE:33] #ERROR    [2023-11-17 05:01:03,668]  TelegramAPIError: Forbidden: user is deactivated 
+Update: {"update_id": 422594404, "message": {"message_id": 40206568, "from": {"id": 660525636, "is_bot": false, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "language_code": "uz"}, "chat": {"id": 660525636, "first_name": "\u2664Criminal\u2664", "username": "Cr1minal_97", "type": "private"}, "date": 1700186458, "video": {"duration": 58, "width": 1280, "height": 720, "mime_type": "video/mp4", "thumbnail": {"file_id": "AAMCAgADGQECZYDoZVbJWqjJMjV3sl-EoiGHZ79_hZAAAgonAAKIF1lJojD5uwQPEq0BAAdtAAMzBA", "file_unique_id": "AQADCicAAogXWUly", "file_size": 22252, "width": 320, "height": 180}, "thumb": {"file_id": "AAMCAgADGQECZYDoZVbJWqjJMjV3sl-EoiGHZ79_hZAAAgonAAKIF1lJojD5uwQPEq0BAAdtAAMzBA", "file_unique_id": "AQADCicAAogXWUly", "file_size": 22252, "width": 320, "height": 180}, "file_id": "BAACAgIAAxkBAmWA6GVWyVqoyTI1d7JfhKIhh2e_f4WQAAIKJwACiBdZSaIw-bsEDxKtMwQ", "file_unique_id": "AgADCicAAogXWUk", "file_size": 8735413}, "caption": "VITEK Endi O\u2018zbekistonda Juda Arzon Narxda\nQish va Yoz mavsumi uchun kondisioner\u2757\ufe0f\nDevorga o\u2018rnatiladi, Xona havosini tozalab beradi\n\n\U0001f449 To\u2018rt xil rejimda ishlaydi\u2705\n\U0001f449 Pult orqali boshqariladi \u2705\n\U0001f449 25-30 kvadratni isitadi \u2705\n\U0001f449 1-2 KV (Ekonomniy)\u2705\n\U0001f449 Isitishi +36, Sovutishi zor\n\nYeTKAZIB BERISH mavjud! To\u2018lov qo\u2018lingizga olganda qilasiz\n\n\U0001f69a Buyurtma Berish \U0001f447\U0001f447\U0001f447\nhttps://alijahon.uz/oqim/40500\nhttps://alijahon.uz/oqim/40500\nhttps://alijahon.uz/oqim/40500", "caption_entities": [{"type": "url", "offset": 365, "length": 30}, {"type": "url", "offset": 396, "length": 30}, {"type": "url", "offset": 427, "length": 30}]}}
+Traceback (most recent call last):
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/root/TG-BOTS/@Kinouzbzavqbot/handlers/users/user.py", line 252, in send_ads_handler
+    await bot.send_video(u, message.video.file_id, caption=text_caption, reply_markup=rep_btn)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/bot.py", line 864, in send_video
+    result = await self.request(api.Methods.SEND_VIDEO, payload, files)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/bot/api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "/root/TG-BOTS/venv/lib/python3.10/site-packages/aiogram/utils/exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.UserDeactivated: Forbidden: user is deactivated
