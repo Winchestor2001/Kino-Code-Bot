@@ -15,7 +15,6 @@ from states.AllStates import MyStates
 from database.connections import add_user, get_channels, get_admins, delete_movie_code, get_movies_list, \
     delete_all_movies, get_movie, add_new_channel, get_channel_by_id, delete_channel, add_new_admin, delete_admin, \
     add_new_movie, get_all_users, update_movie_views, get_default_channel_link, update_default_channel_link
-from utils.misc.dot_env import edit_env_file
 
 
 async def channels_check_func(user_id):
@@ -28,15 +27,15 @@ async def channels_check_func(user_id):
             channel_name = row['channel_name']
             channel_id = row['channel_id']
             channel_link = row['channel_link']
-
-            check_user = await bot.get_chat_member(channel_id, user_id)
-            if check_user.status not in CHANNELS_STATUS:
-                unsubs.append(
-                    {
-                        'channel_name': channel_name,
-                        'channel_link': channel_link,
-                    }
-                )
+            if row['check_channel']:
+                check_user = await bot.get_chat_member(channel_id, user_id)
+                if check_user.status not in CHANNELS_STATUS:
+                    unsubs.append(
+                        {
+                            'channel_name': channel_name,
+                            'channel_link': channel_link,
+                        }
+                    )
 
     if len(unsubs) == 0:
         return "success"
@@ -203,6 +202,40 @@ async def check_channel_handler(message: Message, state: FSMContext):
                         text=f"📶 Kanallar ro'yxati:",
                         reply_markup=btn
                     )
+                await state.finish()
+
+        else:
+            await message.answer(
+                'Kanal qushish uchun shu kurinishda yozing:\n\n<em>KANAL NOMI\nKANAL ID\nhttps://t.me/+9DejWHHYHVVkMzg6</em>',
+                disable_web_page_preview=True)
+
+    except ChatNotFound:
+        await bot.send_message(user_id, '<b>Kanal topilmadi!</b>')
+
+
+async def check_channel_invite_handler(message: Message, state: FSMContext):
+    user_id = message.from_user.id
+    text = message.text.split("\n")
+    prefix = '-100'
+    try:
+        if len(text) == 3:
+            text = [item.strip() for item in text]
+            channel_name, channel_id, channel_link = text
+
+            if channel_id.isdigit() or channel_id.startswith('-100'):
+                await message.answer(f"✅ Nomi: {channel_name}\n"
+                                     f"✅ Link: {channel_link}", disable_web_page_preview=True, reply_markup=remove)
+
+                channel_id = prefix + channel_id
+                await add_new_channel(channel_name, channel_id, channel_link, False)
+                channels, _ = await get_channels()
+
+                btn = await add_channel_btn(channels)
+
+                await message.answer(
+                    text=f"📶 Kanallar ro'yxati:",
+                    reply_markup=btn
+                )
                 await state.finish()
 
         else:
@@ -385,6 +418,19 @@ async def channel_config_callback(c: CallbackQuery):
     await MyStates.add_channel_check.set()
 
 
+async def channel_config_invite_callback(c: CallbackQuery):
+    await c.answer()
+    await c.message.delete()
+
+    btn = await cencel_send_btn()
+    await c.message.answer(
+        text='Kanal qushish uchun shu kurinishda yozing:\n\n<em>KANAL NOMI\nKANAL ID\nhttps://t.me/+9DejWHHYHVVkMzg6</em>',
+        reply_markup=btn,
+        disable_web_page_preview=True
+    )
+    await MyStates.add_channel_invite_check.set()
+
+
 async def rek_callback(c: CallbackQuery):
     await c.message.delete()
     await c.message.answer(f"VIDEO, AUDIO, RASIM, MATN lardan birini yuboring.\n\n"
@@ -489,6 +535,8 @@ def register_user_py(dp: Dispatcher):
     dp.register_message_handler(clear_movies_handler, commands=['delmovie'])
     dp.register_message_handler(movie_code_handler, content_types=['text'])
     dp.register_message_handler(check_channel_handler, content_types=['text'], state=MyStates.add_channel_check)
+    dp.register_message_handler(check_channel_invite_handler, content_types=['text'],
+                                state=MyStates.add_channel_invite_check)
     dp.register_message_handler(check_admin_handler, content_types=['text'], state=MyStates.add_admin_check)
     dp.register_message_handler(send_ads_handler, content_types=['text', 'photo', 'video', 'animation', 'document'],
                                 state=MyStates.send_message)
@@ -500,6 +548,7 @@ def register_user_py(dp: Dispatcher):
     dp.register_callback_query_handler(check_subscribe_callback, text='check_subscribe')
     dp.register_callback_query_handler(add_channel_callback, text='add_channel')
     dp.register_callback_query_handler(channel_config_callback, text='channel_config')
+    dp.register_callback_query_handler(channel_config_invite_callback, text='channel_config_invite')
     dp.register_callback_query_handler(del_channel_callback, text_contains='delchannel_')
     dp.register_callback_query_handler(rek_callback, text='rek')
     dp.register_callback_query_handler(add_movie_callback, text='add_movie')

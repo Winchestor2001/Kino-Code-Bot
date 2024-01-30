@@ -31,6 +31,7 @@ class Channels(BaseModel):
     channel_name = CharField(max_length=150)
     channel_id = BigIntegerField(primary_key=True)
     channel_link = CharField(max_length=200)
+    check_channel = BooleanField(default=True)
 
     class Meta:
         db_table = 'channels'

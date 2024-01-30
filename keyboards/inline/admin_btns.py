@@ -28,6 +28,7 @@ async def add_channel_btn(channels):
     btn = InlineKeyboardMarkup(row_width=1)
     btn.add(
         InlineKeyboardButton("➕", callback_data="channel_config"),
+        InlineKeyboardButton("➕ Zayavkalik", callback_data="channel_config_invite"),
         InlineKeyboardButton("Ortga ↩️", callback_data="back"),
         *[InlineKeyboardButton(f"{item['channel_name']}", callback_data=f"{item['channel_id']}") for item in channels]
     )

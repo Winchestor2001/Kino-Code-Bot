@@ -64,13 +64,14 @@ async def get_movie(code):
         return movie_info
 
 
-async def add_new_channel(channel_name, channel_id, channel_link):
+async def add_new_channel(channel_name, channel_id, channel_link, check_channel=True):
 
     with db:
         Channels.get_or_create(
             channel_name=channel_name,
             channel_id=channel_id,
-            channel_link=channel_link
+            channel_link=channel_link,
+            check_channel=check_channel,
         )
 
 
