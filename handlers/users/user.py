@@ -27,20 +27,24 @@ async def channels_check_func(user_id):
             channel_name = row['channel_name']
             channel_id = row['channel_id']
             channel_link = row['channel_link']
-            if row['check_channel']:
-                check_user = await bot.get_chat_member(channel_id, user_id)
-                if check_user.status not in CHANNELS_STATUS:
-                    unsubs.append(
-                        {
-                            'channel_name': channel_name,
-                            'channel_link': channel_link,
-                        }
-                    )
+            check_user = await bot.get_chat_member(channel_id, user_id)
+            if check_user.status not in CHANNELS_STATUS:
+                unsubs.append(
+                    {
+                        'channel_name': channel_name,
+                        'channel_link': channel_link,
+                        'check_channel': row['check_channel'],
+                    }
+                )
 
     if len(unsubs) == 0:
         return "success"
     else:
-        return await channels_btn(unsubs)
+        ch = [i['check_channel'] for i in unsubs]
+        if False in ch:
+            return await channels_btn(unsubs)
+        else:
+            return "success"
 
 
 async def welcome(message: Message):
