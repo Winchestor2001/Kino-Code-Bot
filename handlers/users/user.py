@@ -41,7 +41,7 @@ async def channels_check_func(user_id):
         return "success"
     else:
         ch = [i['check_channel'] for i in unsubs]
-        if False in ch:
+        if True in ch:
             return await channels_btn(unsubs)
         else:
             return "success"
